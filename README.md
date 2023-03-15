@@ -1,4 +1,4 @@
-# Music and Singing Club Vorau
+# Vorau Choir
 
 ## Introduction
 
