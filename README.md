@@ -7,25 +7,24 @@ This website is the redesign of the existing home page of [The Choir Vorau](http
 --- 
 
 ## UX
-The purpose of the newly designed home page is mainly to enhance the presentation of the choir activities. This should attrackt fans, tourist, and potentially new members of the Choir Vorau. In future, the current members of the choir will also have the opporutity to see a detail gallery of all past events and concerts. 
+The purpose of the newly designed home page is mainly to enhance the presentation of the choir's activities. This should attract fans, tourists, and potentially new members of the Choir Vorau. In the future, the current members of the choir will also have the opportunity to see a detailed gallery of all past events and concerts.
 
 ### User Stories
 
-**First Time Visitor Goals**
-
-- As a first time visitor, I want to easily navigate throught the content of the webpage.
-- As a firts time visitor, I want to visit the web page on my mobile phone.
-- As a first time visitor, I want to see samples of visual or audio presentation of some past concerts.
+**First-Time Visitor Goals**
+- As a first-time visitor, I want to easily navigate through the content of the webpage.
+- As a first-time visitor, I want to visit the web page on my mobile phone.
+- As a first-time visitor, I want to see samples of the visual or audio presentation of some past concerts.
 
 **Returning Visitor Goals**
 - As a returning visitor, I want to check the upcoming events.
 - As a returning visitor, I want to read about the choir and its members.
 - As a returning visitor, I want to easily contact the choir.
-- As a returning visitor, I want to follow the choir activies on social media.
+- As a returning visitor, I want to follow the choir's activities on social media.
 
 **Frequent Visitor Goals**
 - As a frequent user, I want to check the new upcoming events.
-- As a Frequent user, I want to see new photos or media from the choir activities.
+- As a frequent user, I want to see new photos or media from the choir activities.
 
 ### Opportunities
 
