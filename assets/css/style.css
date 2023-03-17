@@ -24,7 +24,8 @@ html {
 
 body{
     font-family: 'Roboto', sans-serif;
-    color:var(--black)
+    color:var(--black);
+    background-color: var(--white);
 }
 
 h1, h2, h3 {
@@ -120,8 +121,9 @@ h1, h2, h3 {
         border:0;
     }
 
-    a.menu__link{
+    .menu__link{
         margin: 0 5px;
+        border-bottom: solid 1px var(--white);
     }
 
     .menu__link:hover, .menu__link:focus, .menu__link:active {
