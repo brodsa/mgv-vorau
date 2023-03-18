@@ -56,6 +56,9 @@ The purpose of the newly designed home page is mainly to enhance the presentatio
 
 ## Credits
 
+### Inspirations
+https://www.castlechorus.co.uk/
+
 ## Technology Used
 
 [Fonts Parings](https://www.figma.com/file/0g4HdMrtXQdrXMSG3foFZsmD/Raleway-Pairings/duplicate?node-id=0-1)
