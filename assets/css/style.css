@@ -17,7 +17,7 @@ html {
 
 :root {
     --primary-color: #21B8A4;
-    --secondary-color: #97B1AB;
+    --secondary-color: #CECBCB;
     --white: #F5F5F5;
     --black: #3D4849;
   }
@@ -146,6 +146,31 @@ h1, h2, h3 {
     flex-direction: column;
     align-items: center;
     margin: 10px 0;
+}
+
+#news-banner::after,
+#news-banner::before{
+	content: "";
+	background-color: var(--primary-color);
+	display:block;
+	height: 2px;
+	width: 100px;
+}
+
+#news-banner::after{
+	margin: 20px auto 0 auto;
+}
+
+#news-banner::before{
+	margin: 0 auto 20px auto;
+}
+
+#news-banner p{
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
 }
 
 
