@@ -63,10 +63,11 @@ The home page consists of 4 sections:
 ### Design
 
 #### Colors
+The color pallete consist of four colors. The primary color ()
 
-### Fonts
+#### Fonts
 
-### Wireframe Mockups
+#### Wireframe Mockups
 
 ---
 
