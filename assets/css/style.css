@@ -115,8 +115,8 @@ h1, h2, h3 {
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 20px;
-    margin: 5% 10% 10% 10%;
+    padding: 40px 20px 0 20px;
+    margin: 5% 10% 0 10%;
 }
 
 .hero__text{
@@ -148,26 +148,61 @@ h1, h2, h3 {
     margin: 10px 0;
 }
 
+
+/* mutual components */
+
 .button{
-    background-color: var(--white);
     padding: 5px 20px;
     border-radius: 2px;
-    color: var(--black);
     font-family: inherit;
-    font-size: inherit;
+    color: var(--black);
     margin:  10px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     cursor: pointer;
+    font-weight: bold;
+}
+
+.botton-primary{
+    background-color: var(--white);
+}
+
+.button-secondary{
+    background-color:var(--primary-color);
 }
 
 .button:hover{
-    background-color: var(--secondary-color);
     scale: 1.05;
 }
 
 .button:active, button:focus{
-    background-color: var(--primary-color);
-    border: 1px solid var(--white);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--black);
+}
+
+
+
+
+
+.section{
+    margin: 40px;
+}
+
+.section__title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section__text{
+    margin-bottom: 10px;
+}
+
+.section__media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section__video{
+    margin: 10px auto;
 }
 
 @media screen and (min-width: 481px){
