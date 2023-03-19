@@ -155,6 +155,7 @@ h1, h2, h3 {
     padding: 5px 20px;
     border-radius: 2px;
     font-family: inherit;
+    font-size: 100%;
     color: var(--black);
     margin:  10px;
     text-transform: uppercase;
