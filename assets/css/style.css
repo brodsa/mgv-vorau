@@ -17,7 +17,7 @@ html {
 
 :root {
     --primary-color: #21B8A4;
-    --secondary-color: #E9E9E8;
+    --secondary-color: #97B1AB;
     --white: #F5F5F5;
     --black: #3D4849;
   }
@@ -175,6 +175,7 @@ h1, h2, h3 {
 }
 
 .button:active, button:focus{
+    scale: 1.05;
     background-color: var(--secondary-color);
     border: 1px solid var(--black);
 }
