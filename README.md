@@ -63,7 +63,9 @@ The home page consists of 4 sections:
 ### Design
 
 #### Colors
-The color pallete consist of four colors. The primary color ()
+The color pallete consist of four colors. The colors were generated and compared using [coolors](https://coolors.co/21b8a4-cecbcb-3d4849-f5f5f5). The primary color (#21B8A4) was mainly chosen based on the colors of the hero picture. The secondary color (#CECBCB) was manually choosen as a neutral color along the white smoke (#F5F5F5) and black outer space (#3D4849).
+
+![Color Pallete](./assets/documentation/color_palette.png)
 
 #### Fonts
 
