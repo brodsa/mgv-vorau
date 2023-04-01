@@ -344,6 +344,21 @@ h1, h2, h3 {
     border: none;
 }
 
+/* footer */
+.footer{
+    position:relative;
+}
+
+.footer__background{
+    background: var(--primary-color);
+    height: 400px;
+    width: 100%;
+    clip-path: polygon(50% 70%, 100% 50%, 100% 100%, 0 100%, 0% 50%);
+    position:absolute;
+    left:0;
+    bottom:0;
+    z-index: -1;
+}
 
 /* mutual components */
 
@@ -389,6 +404,10 @@ h1, h2, h3 {
 
 .link:hover{
     font-weight: bold;
+}
+
+.link--large{
+    font-size: 20px;
 }
 
 
