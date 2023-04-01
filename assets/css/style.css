@@ -224,16 +224,17 @@ h1, h2, h3 {
 }
 
 .calendar__date h3:first-child{
-    font-size: 180%;
+    /* font-size: 180%; */
     padding-bottom: 5px;
 }
 
-.calendar__date h3:last-child{
+.calendar__date h3:first-child{
     font-size: 130%;
 }
 
 .calendar__date p{
     font-size: 80%;
+    font-weight: bold;
     font-family: 'Raleway', sans-serif;
     
 }
