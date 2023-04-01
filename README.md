@@ -69,6 +69,10 @@ The color pallete consist of four colors. The colors were generated and compared
 
 #### Fonts
 
+[Artical](https://kinsta.com/blog/best-google-fonts/#:~:text=Roboto.,appearances%20on%20Google%20Fonts'%20analytics.)
+
+[Posta bout pairing the fonts](https://www.figma.com/google-fonts/roboto-font-pairings/#:~:text=Roboto%20is%20an%20open%20source,Nunito%2C%20Raleway%20and%20Space%20Mono.)
+
 #### Wireframe Mockups
 
 ---
@@ -87,6 +91,8 @@ The color pallete consist of four colors. The colors were generated and compared
 
 ## Credits
 - [Responsive iframes](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
+
+- [Icons](https://fontawesome.com/search)
 
 ### Inspirations
 https://www.castlechorus.co.uk/
