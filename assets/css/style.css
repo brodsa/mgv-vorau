@@ -254,6 +254,34 @@ h1, h2, h3 {
 
 
 /* contact us */
+.contact__info{
+    background-color: var(--secondary-color);
+    max-width: 250px;
+    margin: 20px 0 60px 0;
+    padding: 20px;
+    border-radius: 3px;
+}
+.contact__info p{
+    padding-bottom: 2px;
+}
+
+.contact__info p:first-child{
+    font-weight: bold;
+}
+
+.contact__info p:last-child{
+    padding-bottom: 0;
+}
+
+
+
+.contact__info a{
+    text-decoration: none;
+    color: var(--black);
+    cursor: pointer;
+}
+
+
 .form{
     max-width: 400px;
     margin: 0 auto;
@@ -299,7 +327,7 @@ h1, h2, h3 {
     margin: 30px 30px;
 }
 
-.location__title{
+.contact__title{
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
@@ -421,7 +449,8 @@ h1, h2, h3 {
 
 }
 
-@media screen and (min-width: 851px){
+
+@media screen and (min-width: 800px){
 
     .welcome__text, .welcome__media{
         flex-basis: 50%
@@ -447,8 +476,13 @@ h1, h2, h3 {
     }
 
 
-    .form, .location{
-        flex: 1 50%;
+    .form{
+        flex: 1 40%;
+        margin: 0 30px;
+    }
+
+    .location{
+        flex: 1 60%;
         margin: 0 30px;
     }
 
@@ -489,7 +523,6 @@ h1, h2, h3 {
         color: var(--primary-color);
         background-color: var(--white);
         border-bottom: 1px solid var(--primary-color);
-        /* text-decoration: underline; */
     }
 
 
@@ -517,6 +550,7 @@ h1, h2, h3 {
         margin-top: 40px;
         margin-bottom: 40px;
     }
+
 
 
 }
