@@ -348,6 +348,10 @@ h1, h2, h3 {
     flex-direction: column;
 }
 
+.section__text{
+    margin-bottom: 10px;
+}
+
 .section__paragraph{
     margin-bottom: 10px;
 }
