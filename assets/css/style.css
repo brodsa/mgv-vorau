@@ -258,7 +258,7 @@ h1, h2, h3 {
 
 .form{
     max-width: 400px;
-    
+    margin: 0 auto;
 }
 
 .form__buttons{
@@ -335,7 +335,7 @@ h1, h2, h3 {
 
 
 .section{
-    margin: 60px;
+    margin: 60px 30px;
 }
 
 .section__title{
@@ -383,6 +383,9 @@ h1, h2, h3 {
         border-radius: 10px;
     }
 
+    .section{
+        margin: 60px;
+    }
 
 
 }
