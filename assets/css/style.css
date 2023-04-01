@@ -254,6 +254,8 @@ h1, h2, h3 {
 
 
 /* contact us */
+
+
 .form{
     max-width: 400px;
     
@@ -346,7 +348,7 @@ h1, h2, h3 {
     flex-direction: column;
 }
 
-.section__text{
+.section__paragraph{
     margin-bottom: 10px;
 }
 
