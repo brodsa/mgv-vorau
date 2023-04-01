@@ -254,8 +254,6 @@ h1, h2, h3 {
 
 
 /* contact us */
-
-
 .form{
     max-width: 400px;
     margin: 0 auto;
@@ -281,7 +279,7 @@ h1, h2, h3 {
     margin: 2px 0 10px 0;
     border-radius: 2px;
     border: solid 2px var(--secondary-color);
-    outline-color: var(--primary-color);
+    outline-color: var(--black);
 }
 
 .text-input{
@@ -293,7 +291,7 @@ h1, h2, h3 {
 }
 
 .text-input:hover, .text-field:hover{
-    border: solid 2px var(--black);
+    border: solid 2px var(--primary-color);
 }
 
 
