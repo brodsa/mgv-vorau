@@ -86,6 +86,7 @@ The color pallete consist of four colors. The colors were generated and compared
 ---
 
 ## Credits
+- [Responsive iframes](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
 
 ### Inspirations
 https://www.castlechorus.co.uk/
