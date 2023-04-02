@@ -127,7 +127,7 @@ h1, h2, h3, h4 {
 }
 
 .hero__text > h2{
-    margin-bottom: 20px; 
+    margin: 20px auto; 
 }
 
 .hero__image-container{
@@ -213,7 +213,7 @@ h1, h2, h3, h4 {
 }
 
 .calendar__date{
-    flex: 1 40%;
+    flex: 1 45%;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -240,7 +240,7 @@ h1, h2, h3, h4 {
     
 }
 .calendar__info{
-    flex: 1 60%;
+    flex: 1 55%;
     margin: 10px;
 }
 
@@ -256,7 +256,7 @@ h1, h2, h3, h4 {
 /* contact us */
 .contact__info{
     background-color: var(--secondary-color);
-    max-width: 250px;
+    max-width: 260px;
     margin: 20px 0 60px 0;
     padding: 20px;
     border-radius: 3px;
