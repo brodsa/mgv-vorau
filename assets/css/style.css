@@ -19,7 +19,7 @@ html {
     --primary-color: #21B8A4;
     --secondary-color: #CECBCB;
     --white: #F5F5F5;
-    --black: 201F1F;
+    --black: #201F1F;
   }
 
 body{
@@ -348,7 +348,6 @@ h1, h2, h3, h4 {
 .footer{
     position:relative;
     font-size: smaller;
-    color:var(--white);
 }
 
 .footer__background{
@@ -379,12 +378,11 @@ h1, h2, h3, h4 {
 
 .footer__link{
     text-decoration: none;
-    color:var(--white);
+    color:var(--black);
     letter-spacing: 1px;
 }
 
 .footer__link:hover{
-    color:var(--black);
     font-weight: bold;
 }
 
@@ -412,7 +410,7 @@ h1, h2, h3, h4 {
 }
 
 .fa-brands:hover{
-    color:var(--black)
+    font-weight: bold;
 }
 
 
