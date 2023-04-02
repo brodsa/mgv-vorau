@@ -73,10 +73,10 @@ The resulting color pallete is more accessible, see  [validation of new colors](
 ![Validation of the color accessibility](./assets/documentation/color_palette_accessibility.png)
 
 #### Fonts
+The heading font, Raleway, was selected after searching for the best fonts in 2023, see [here](https://kinsta.com/blog/best-google-fonts/#:~:text=Roboto.,appearances%20on%20Google%20Fonts'%20analytics.). The suitable body text font, Roboto, was chosen based on the [blog post](https://www.figma.com/google-fonts/raleway-font-pairings/#:~:text=Raleway%20font%20pairing,PT%20Sans%2C%20and%20Open%20Sans.) by Figma.
 
-[Artical](https://kinsta.com/blog/best-google-fonts/#:~:text=Roboto.,appearances%20on%20Google%20Fonts'%20analytics.)
 
-[Posta bout pairing the fonts](https://www.figma.com/google-fonts/roboto-font-pairings/#:~:text=Roboto%20is%20an%20open%20source,Nunito%2C%20Raleway%20and%20Space%20Mono.)
+![Pairing of the selected fonts](./assets/documentation/font_pairing.png)
 
 #### Wireframe Mockups
 
