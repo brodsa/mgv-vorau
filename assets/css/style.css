@@ -401,6 +401,10 @@ h1, h2, h3, h4 {
 
 }
 
+.fa-brands{
+    font-size: larger;
+}
+
 
 /* mutual components */
 
@@ -548,6 +552,10 @@ h1, h2, h3, h4 {
     .location{
         flex: 1 60%;
         margin: 0 30px;
+    }
+
+    .footer__background{
+        height: 350px;
     }
 
 
