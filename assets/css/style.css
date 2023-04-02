@@ -377,9 +377,15 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 
-.footer__links a, .copyright a, .footer__social-media a{
+.footer__link{
+    text-decoration: none;
     color:var(--white);
     letter-spacing: 1px;
+}
+
+.footer__link:hover{
+    color:var(--black);
+    font-weight: bold;
 }
 
 
@@ -402,7 +408,11 @@ h1, h2, h3, h4 {
 }
 
 .fa-brands{
-    font-size: larger;
+    font-size: 25px;
+}
+
+.fa-brands:hover{
+    color:var(--black)
 }
 
 
