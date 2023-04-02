@@ -65,7 +65,11 @@ The home page consists of 4 sections:
 #### Colors
 The color pallete consist of four colors. The colors were generated and compared using [coolors](https://coolors.co/21b8a4-cecbcb-3d4849-f5f5f5). The primary color (#21B8A4) was mainly chosen based on the colors of the hero picture. The secondary color (#CECBCB) was manually choosen as a neutral color along the white smoke (#F5F5F5) and black outer space (#3D4849).
 
-![Color Pallete](./assets/documentation/color_palette.png)
+![Color Pallete](./assets/documentation/color_palette.png).
+
+[validator of old colors](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&n=Color%204&v=F5F5F5&v=3D4849&v=21B8A4&v=CECBCB)
+
+[validator of new colors](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&n=Color%204&v=F5F5F5&v=3D4849&v=12675C&v=CECBCB)
 
 #### Fonts
 
@@ -102,6 +106,8 @@ https://www.castlechorus.co.uk/
 [Fonts Parings](https://www.figma.com/file/0g4HdMrtXQdrXMSG3foFZsmD/Raleway-Pairings/duplicate?node-id=0-1)
 
 [Image Compressor](https://tinypng.com/)
+
+[Logo Creater](https://looka.com/)
 
 
 
