@@ -78,7 +78,28 @@ The heading font, Raleway, was selected after searching for the best fonts in 20
 
 ![Pairing of the selected fonts](./assets/documentation/font_pairing.png)
 
-#### Wireframe Mockups
+#### Wireframes
+The wireframes were created using the program balsamiq. Two versions of the webpage were considered: mobile (left) and notebook (right).
+
+Home Page
+![Wireframe of the home page](./assets/documentation/wireframe/HOME.png)
+
+About Us Page
+![Wireframe of the about us page](./assets/documentation/wireframe/ABOUT%20US.png)
+
+Gallery Page
+![Wireframe of the gallery page](./assets/documentation/wireframe/GALLERY.png)
+
+
+**Differences to Desing**
+There are several slight differences between the original and the actuall design:
+- Generally, there is more text in the actuall desing.
+- The hamburger menu was not considered in the original design.
+- Four embeded videos for large devices were not implemented because of the difficulities of changing the video sizes.
+- The layout of the footer was slightly modified.
+- The layout of the Gallery Page was slightly modified.
+
+**Features
 
 ---
 

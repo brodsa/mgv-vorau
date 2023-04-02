@@ -16,7 +16,8 @@ html {
 }
 
 :root {
-    --primary-color: #21B8A4;
+    /* --primary-color:  #21B8A4; */
+    --primary-color: #E7B497;
     --secondary-color: #CECBCB;
     --white: #F5F5F5;
     --black: #201F1F;
