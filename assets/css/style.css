@@ -497,7 +497,7 @@ h1, h2, h3, h4 {
 /* gallery page */
 .gallery-grid{
     padding: 40px 40px;
-    margin: 60px auto;
+    margin: 0 auto;
     display: grid;
     grid-auto-rows: 250px;
     grid-template-columns: 1fr;
