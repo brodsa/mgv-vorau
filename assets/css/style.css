@@ -566,6 +566,15 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
+.history__photo{
+    max-width: 300px;
+    margin: 0 auto 10px;
+}
+
+.history__img{
+    width: 100%;
+}
+
 
 
 
