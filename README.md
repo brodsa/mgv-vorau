@@ -150,6 +150,9 @@ https://www.castlechorus.co.uk/
 
 [Logo Creater](https://looka.com/)
 
+[Favicon](https://favicon.io/favicon-converter/)
+
+[Color Palette](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578)
 
 
 
