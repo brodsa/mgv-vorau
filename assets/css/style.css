@@ -604,6 +604,8 @@ h1, h2, h3, h4 {
     .people{
         flex-direction: row;
         flex-wrap: wrap;
+        max-width: 400px;
+        margin: 0 auto;
     }
     .person{
         flex: 0 0 50%;
@@ -661,10 +663,6 @@ h1, h2, h3, h4 {
     }
     
 
-    /* about us page */
-    .person{
-        flex-basis: 25%;
-    }
 
 
 }
@@ -736,6 +734,16 @@ h1, h2, h3, h4 {
         grid-template-rows: 280px;
         grid-template-columns: repeat(3, 1fr);
         grid-auto-flow: dense;
+    }
+
+
+      /* about us page */
+    
+    .people{
+        max-width: 800px;
+    }
+    .person{
+        flex-basis: 25%;
     }
 
 
