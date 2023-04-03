@@ -120,7 +120,7 @@ There are several slight differences between the original and the actuall design
 
 - buttons in the form have different appearence on mobile devices than on notebooks; solution: unsolved
 
-- style commit: related to css styles
+- style commit: related to css styles; solution: used in refact
 
 ---
 
