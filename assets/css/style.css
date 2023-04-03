@@ -106,7 +106,7 @@ h1, h2, h3, h4 {
     background: var(--primary-color);
     height: 400px;
     width: 100%;
-    clip-path: polygon(45% 85%, 100% 70%, 100% 0, 0 0, 0% 70%);
+    clip-path: polygon(50% 85%, 100% 70%, 100% 0, 0 0, 0% 70%);
     position:absolute;
     left:0;
     top:0;
@@ -600,6 +600,18 @@ h1, h2, h3, h4 {
         grid-column: span 2;
     }
 
+    /* about us page */
+    .people{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .person{
+        flex: 0 0 50%;
+    }
+    .person__photo{
+        margin: 0 auto;
+    }
+
 }
 
 
@@ -648,6 +660,11 @@ h1, h2, h3, h4 {
         grid-auto-rows: 300px;
     }
     
+
+    /* about us page */
+    .person{
+        flex-basis: 25%;
+    }
 
 
 }
