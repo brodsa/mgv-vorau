@@ -110,6 +110,17 @@ There are several slight differences between the original and the actuall design
 ### Validator Testing
 
 ---
+## Bugs
+
+-accesibility (the original selected colors were not), solution: new color pallete;
+
+- in generally, margin and padding was always slightly changed to received better appearence (very subjective to the developer);
+
+- padding of the menu bar is not consistent in all pages when using mobile devices; solution: 
+
+- buttons in the form have different appearence on mobile devices than on notebooks; solution: unsolved
+
+---
 
 ## Deployment
 

@@ -219,6 +219,7 @@ h1, h2, h3, h4 {
 
 .calender__item--highlight{
     background-color: var(--primary-color);
+    color:var(--white)
 }
 
 .calendar__date{
