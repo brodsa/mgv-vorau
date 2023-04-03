@@ -120,6 +120,12 @@ There are several slight differences between the original and the actuall design
 
 - [Icons](https://fontawesome.com/search)
 
+- Content
+
+- images 
+
+- [profile placeholder](https://www.pngfind.com/download/hJmwxix_image-placeholder-png-user-profile-placeholder-image-png/)
+
 ### Inspirations
 https://www.castlechorus.co.uk/
 
