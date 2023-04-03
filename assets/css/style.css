@@ -475,6 +475,13 @@ h1, h2, h3, h4 {
     margin-bottom: 40px;
 }
 
+
+.section__subtitle{
+    text-align: center;
+    margin: 60px 0 30px;
+}
+
+
 .section__content{
     display:flex;
     flex-direction: column;
@@ -490,6 +497,12 @@ h1, h2, h3, h4 {
 
 .section__paragraph--center{
     text-align: center;
+}
+
+.section__paragraph--highlight{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 30px;
 }
 
 
@@ -519,10 +532,6 @@ h1, h2, h3, h4 {
 
 
 /* about us page */
-
-#about .section__title{
-    padding-top: 40px;
-}
 
 .people{
     display: flex;
@@ -556,6 +565,8 @@ h1, h2, h3, h4 {
 .person__info--bold{
     font-weight: bold;
 }
+
+
 
 
 @media screen and (min-width: 481px){
@@ -742,6 +753,7 @@ h1, h2, h3, h4 {
     .people{
         max-width: 800px;
     }
+
     .person{
         flex-basis: 25%;
     }
