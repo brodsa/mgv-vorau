@@ -17,11 +17,19 @@ html {
 
 :root {
     /* --primary-color:  #21B8A4; */
-    --primary-color: #E7B497;
-    --secondary-color: #CECBCB;
-    --white: #F5F5F5;
+    --primary-color: #006d77ff;
+    --primary-color-light: #83c5beff;
+    --secondary-color-light: #ffddd2ff;
+    --secondary-color:#e29578ff;
+    --white: #edf6f9ff;
     --black: #201F1F;
   }
+
+  /* $caribbean-current: #006d77ff;
+$tiffany-blue: #83c5beff;
+$alice-blue: #edf6f9ff;
+$pale-dogwood: #ffddd2ff;
+$atomic-tangerine: #e29578ff; */
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -89,7 +97,7 @@ h1, h2, h3, h4 {
 }
 
 .menu__link:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color-light);
 }
 
 .menu__checkbox:checked ~ .menu__list{
@@ -103,7 +111,7 @@ h1, h2, h3, h4 {
 }
 
 .hero__background{
-    background: var(--primary-color);
+    background: var(--secondary-color);
     height: 400px;
     width: 100%;
     clip-path: polygon(50% 85%, 100% 70%, 100% 0, 0 0, 0% 70%);
@@ -349,6 +357,7 @@ h1, h2, h3, h4 {
 .footer{
     position:relative;
     font-size: smaller;
+    color:var(--white)
 }
 
 .footer__background{
@@ -379,7 +388,7 @@ h1, h2, h3, h4 {
 
 .footer__link{
     text-decoration: none;
-    color:var(--black);
+    color:var(--white);
     letter-spacing: 1px;
 }
 
@@ -435,6 +444,7 @@ h1, h2, h3, h4 {
 
 .button-secondary{
     background-color:var(--primary-color);
+    color:var(--white)
 }
 
 .button-tertiary{
