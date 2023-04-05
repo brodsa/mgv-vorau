@@ -118,7 +118,9 @@ There are several slight differences between the original and the actuall design
 
 - padding of the menu bar is not consistent in all pages when using mobile devices; solution: 
 
-- buttons in the form have different appearence on mobile devices than on notebooks; solution: unsolved
+- calender items are not large enough, text is hidden; solution: make the widht larger
+
+- buttons in the form have different appearence on mobile devices than on notebooks; solution: add `-webkit-appearance: none` to the css class; according to [stack overlow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone)
 
 - style commit: related to css styles; solution: used in refact
 
