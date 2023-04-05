@@ -114,7 +114,7 @@ There are several slight differences between the original and the actuall design
 
 - accesibility (the original selected colors were not), solution: new color pallete;
 
-- in generally, margin and padding was always slightly changed to received better appearence (very subjective to the developer);
+- in generally, margin and padding was always slightly changed to received better appearence (very subjective to the developer) and typos;
 
 - padding of the menu bar is not consistent in all pages when using mobile devices; solution: 
 
