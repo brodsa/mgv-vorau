@@ -42,7 +42,7 @@ h1, h2, h3, h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 20px 20px 0 20px;
+    margin: 20px 20px 5% 20px;
 }
 
 .header a {
@@ -506,6 +506,9 @@ h1, h2, h3, h4 {
 
 
 /* gallery page */
+
+
+
 .gallery-grid{
     padding: 40px 40px;
     margin: 0 auto 40px auto;
