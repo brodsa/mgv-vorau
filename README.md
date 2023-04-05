@@ -34,32 +34,50 @@ The layout of the webpage takes into account all eight user stories. Firstly, th
 
 
 #### **Navigation Menu**
-- All three web sites contain the logo and navigation menu (US1).
+- All three web pages contain the logo and navigation menu (US1).
 - The navigation menu includes the following items (US1): 
-    - Home directs the user the the top of the homepage
-    - About Us directs the user to the About Us Page
-    - Callendar directs the user to the Calender section
-    - Gallery dericts the user to the Gallery Page
-    - Contact Us dericts the user to the Contact Us section 
+    - *Home* navigates the user to the homepage.
+    - *About Us* navigates the user to the About Us Page.
+    - *Calendar* navigates the user to the Calender Section.
+    - *Gallery* navigates the user to the Gallery Page.
+    - *Get In Touch* navigates the user to the Get in Touch Section. 
 - The navigation menu is displayd as hamburger on the small devices (US2).
 
+![Menu](./assets/documentation/structure_menu.png)
+
 #### **Footer**
-- The footer is a common component of the three web sites as the navigation menu.
-- The footer will contain the links to the social media (US7, US9) and the the copyright notice.
+- The footer is a common component of all three webpages as the navigation menu.
+- The footer contains the links to the social media (US7, US9), contact information (US6) and the copyright notice.
+
+![Footer](./assets/documentation/structure_footer.png)
 
 #### **Home Page**
-The home page consists of 4 sections:
- - *Hero Section* includes the name, slogan and photo of the choir. Additionaly, there are two buttons Listen to Us and Join Us resp. which directs the user to Calender (US4, US9) and Contact (US6) resp. section quickly.
- - *News Section* serves for important announcments, such as upcomming concerts, new on-line vidos or cancellations (US8).
+The Home Page consists of 4 sections:
+ - *Hero Section* includes the name, slogan and photo of the choir. Additionaly, there are two buttons *Listen to Us* and *Join Us* resp. which directs the user to Calender (US4, US9) and Get In Touch (US6) resp. Section quickly.
+ ![Hero](./assets/documentation/structure_hero.png)
+
+ - *News Banner* serves for important announcements, such as upcomming concerts, new published on-line videos or concert cancellation (US8).
+![News Banner](./assets/documentation/structure_news-banner.png)
+
  - *Welcome Section* introduces the choir briefly. An embedend Youtube video of the choir sining is included (US3). 
- - *Calender Section* lists all upcoming concerts and singing rehearsal (US4, US8).
- - *Contact Section* includes contact form, other contanct information and the rehearsal location (US6). 
+ ![Welcome Section](./assets/documentation/structure_welcome-section.png)
+
+ - *Calendar Section* lists all upcoming concerts and singing rehearsal (US4, US8).
+![Calendar Section](./assets/documentation/structure_calendar-section.png)
+
+ - *Get In Touch Section* includes contact form and the rehearsal location (US6). 
+ ![Get In Touch Section](./assets/documentation/structure_contact-section.png)
 
 #### **Gallery Page**
-- The Gallery Page contains the photos of the choir from the concerts or other events (US3, US9).
+- The Gallery Page contains a selection of the photos from the concerts or other events (US3, US9).
+
+![Gallery Page](./assets/documentation/structure_gallery-page.png)
 
 #### **About Us Page**
-- The About Us Page introduces the choir in details, including its history. The page also lists the front persons (US5) .
+- The About Us Page introduces the choir, including its history. The page also lists the front persons (US5).
+
+![About Us Page](./assets/documentation/structure_about-page.png)
+
 
 
 ### Design
