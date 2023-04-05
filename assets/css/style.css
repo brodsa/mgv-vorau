@@ -62,10 +62,26 @@ h1, h2, h3, h4 {
     cursor: pointer;
 }
 
-.logo__title{
+.logo__hamburger{
     color:var(--primary-color);
     font-size: 200%;
-    text-align: center;
+    text-align: right;
+}
+
+.logo__image{
+    width: 200px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo__img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 
 
@@ -130,7 +146,7 @@ h1, h2, h3, h4 {
     font-size: 120%;
 }
 
-.hero__text > h2{
+.hero__text > h1{
     margin: 20px auto; 
 }
 
@@ -156,6 +172,11 @@ h1, h2, h3, h4 {
 
 
 /* news section */
+#news-banner{
+    margin-top: 30px;  
+    margin-bottom: 60px;
+}
+
 #news-banner::after,
 #news-banner::before{
 	content: "";
@@ -466,7 +487,7 @@ h1, h2, h3, h4 {
 
 
 .section{
-    margin: 60px 30px;
+    margin: 0 30px 60px 30px;
 }
 
 .section__title{
@@ -507,8 +528,6 @@ h1, h2, h3, h4 {
 
 /* gallery page */
 
-
-
 .gallery-grid{
     padding: 40px 40px;
     margin: 0 auto 40px auto;
@@ -528,12 +547,17 @@ h1, h2, h3, h4 {
 
 #gallery .section__title{
     margin: 0;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 
 
 /* about us page */
+
+#about .section__title{
+    margin: 0;
+    padding: 60px 0;
+}
 
 .people{
     display: flex;
@@ -606,7 +630,7 @@ h1, h2, h3, h4 {
     }
 
     .section{
-        margin: 60px;
+        margin: 0 30px 60px 30px;
     }
 
 
@@ -653,6 +677,15 @@ h1, h2, h3, h4 {
         flex-direction: row;
         align-items: center;
         gap: 40px;
+    }
+
+    .section{
+        width: 750px;
+        margin: 0 auto 60px auto;
+    }
+
+    .section__title{
+        margin-top :60px;
     }
 
 
@@ -713,6 +746,12 @@ h1, h2, h3, h4 {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        margin:0 20px;
+    }
+
+    .logo__image{
+        width:170px;
+        height: 120px;
     }
 
     .logo{
@@ -758,8 +797,11 @@ h1, h2, h3, h4 {
         gap: 50px;
     }
 
-    .section{
+    #news-banner{
         margin: 90px auto;
+    }
+
+    .section{
         width: 950px;
     }
 
