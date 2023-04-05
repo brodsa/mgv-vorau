@@ -116,7 +116,7 @@ There are several slight differences between the original and the actuall design
 
 - in generally, margin and padding was always slightly changed to received better appearence (very subjective to the developer) and typos;
 
-- the widht is not consistent in all pages when using mobile devices; solution: added marging to the header in the about and about us page
+- the width is not consistent in all pages when using mobile devices; solution: added marging to the header in the about and about us page
 
 - calender items are not large enough, text is hidden; solution: make the widht larger
 
