@@ -30,7 +30,7 @@ The purpose of the newly designed home page is mainly to enhance the presentatio
 - US9: As a frequent user, I want to see new photos or media from the choir activities.
 
 ### Structure
-The layout of the webpage takes into account all eight user stories. Firstly, the entire webpage is desinged in a responsive way to ensure that the web page is properly display on different devices (e.g. a mobile, a desktop). Secondly, the web page consists of three sites, containing the common components, i.e. navigation menu and footer. This helps the user to easily navigate through the content of the webpage. Lastly, the webpage contains other components or elements which are common practise in webdesign, i.e. logo, hero picture, copyright notice or external links. 
+The layout of the webpage takes into account all eight user stories. Firstly, the entire webpage is desinged in a responsive way to ensure that the webpage is properly displaied on different devices (e.g. a mobile, a desktop). Secondly, the webpage consists of three sites, containing the common components, i.e. navigation menu and footer. This helps the user to easily navigate through the content of the webpage. Lastly, the webpage contains other components or elements which are common practise in webdesign, i.e. logo, hero picture, copyright notice or external links. 
 
 
 #### **Navigation Menu**
@@ -82,15 +82,8 @@ The Home Page consists of 4 sections:
 
 ### Design
 
-#### Colors
-The color pallete consists of four colors. The colors were generated and compared using [coolors](https://coolors.co/21b8a4-cecbcb-3d4849-f5f5f5). The primary color (#21B8A4) was mainly chosen based on the colors of the hero picture. The secondary color (#CECBCB) was manually choosen as a neutral color along the white smoke (#F5F5F5) and black outer space (#3D4849). After testing the accessibility of the colors (see [color validation](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&n=Color%204&v=F5F5F5&v=3D4849&v=21B8A4&v=CECBCB) ), the black color needed to be changed to the eeiere black (#201F1F). 
-
-![Color Pallete](./assets/documentation/color_palette.png)
-
-
-The resulting color pallete is more accessible, see  [validation of new colors](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E).
-
-![Validation of the color accessibility](./assets/documentation/color_palette_accessibility.png)
+#### Colours
+The colour pallete was changed during the development of the homepage several times. The [initial colour schema](https://coolors.co/21b8a4-cecbcb-3d4849-f5f5f5) was chosen manually without checking the accessibility. After testing, it turned out that the colours are very poor in terms of accessibility. Therefore, new shema was selected based on the popular colour pallete (see [here]())
 
 #### Fonts
 The heading font, Raleway, was selected after searching for the best fonts in 2023, see [here](https://kinsta.com/blog/best-google-fonts/#:~:text=Roboto.,appearances%20on%20Google%20Fonts'%20analytics.). The suitable body text font, Roboto, was chosen based on the [blog post](https://www.figma.com/google-fonts/raleway-font-pairings/#:~:text=Raleway%20font%20pairing,PT%20Sans%2C%20and%20Open%20Sans.) by Figma.
