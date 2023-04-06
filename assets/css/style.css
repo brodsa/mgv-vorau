@@ -65,21 +65,10 @@ h1, h2, h3, h4 {
     background-color:var(--secondary-color);
 }
 
-.button:hover,.button:active, button:focus{
+.button:hover{
     scale: 1.05;
 }
 
-.button-primary:active,.button-primary:focus{
-    background-color: var(--secondary-color-light);
-}
-
-.button-secondary:active,.button-secondary:focus{
-    background-color: var(--primary-color-light);
-}
-
-.button-tertiary:active,.button-tertiary:focus{
-    background-color: var(--secondary-color-light);
-}
 
 
 .link{
