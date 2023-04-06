@@ -126,6 +126,7 @@ There are several slight differences between the original and the actuall design
 
 ### Validator Testing
 
+
 ---
 ## Bugs
 In general, the addaptation of margins and paddings was always slightly changed to received better appearence, which is, of course, very subjective to the developer. Such type of changes and the correction of typos were not considered as bug.
@@ -139,7 +140,7 @@ The list of all bugs wich were fixed und documented is listed in the table below
 | Calendar items are not large enough, causing the text is hidden.                  | The width of the item was increased.                                                                                                |
 | Buttons of the form have different appearence on mobile devices than on notebooks | The problem was googled and a post solving the issue was found on [stack overflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone). The property, `-webkit-appearance: none;` , was added to the css class.   |
 
-It should be noted that during the development, the commit type was included in the message, following [the blog post](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/). A slight difference was ,unfortunately, considered. The commit message `commit -m "style:"` was used for the css styling of the webpage. The changes in the code style, like removing the comments, was considered as the commit message `commit -m "refact:"`. 
+It should be noted that during the development, the commit type was included in the message, following [the blog post](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/). A slight difference was, unfortunately, considered. The style type commit, i.e.  `commit -m "style:"`, was used for the css styling of the webpage. The changes in the code style, like removing the comments, was considered as the refact type commit, i.e. `commit -m "refact:"`. 
 
 ---
 
@@ -154,29 +155,38 @@ The website can be viewed [here](https://brodsa.github.io/mgv-vorau/).
 
 
 ---
+## Languages
+- HTML
+- CSS
+- Markdown
 
-## Credits
-- [Responsive iframes](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
-- [Icons](https://fontawesome.com/search)
+## References
 
-- [Content and Images]() were taken from the original webpage.
-
+### Credits & Inspirations
+- [Responsive iframes](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) were considered for the map in the Get In Touch Section
+- [Content and Images](http://www.mgv-vorau.at/) were taken from the original webpage.
 - [Profile placeholder](https://www.pngfind.com/download/hJmwxix_image-placeholder-png-user-profile-placeholder-image-png/) was taken for the missing profile pictures. The pictures should be added soon.
-
-### Inspirations
-https://www.castlechorus.co.uk/
-
-## Technology Used
-
-[Fonts Parings](https://www.figma.com/file/0g4HdMrtXQdrXMSG3foFZsmD/Raleway-Pairings/duplicate?node-id=0-1)
-
-[Image Compressor](https://tinypng.com/)
-
-[Logo Creater](https://looka.com/)
-
-[Favicon](https://favicon.io/favicon-converter/)
-
-[Color Palette](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578)
+- Lectures of Become a coder from [Czechitas](https://www.czechitas.cz/kurzy/stan-se-koderkou) helped me to refresh some concepts which were not part of the course from the Code Institute (e.g. flex, grid, favicon).
+- [The hero section](https://www.castlechorus.co.uk/) inspired the Hero and Footer Section of the webpage.
+- [The events calendar](https://www.nicepng.com/ourpic/u2t4i1a9w7o0i1i1_march-website-event-calendar-design/ ) inspired the Calendar section of the webpage.
+- The way of presenting the information in footer was inspired by the [THRIVE Jucies nad Smoothies](https://elainebroche-dev.github.io/ms1-thrive/index.html)
+- The style and structure of README were inspired by the alumni and mentors of the Code Institute: [eleinebroche-dev](https://github.com/elainebroche-dev/ms1-thrive), [MattBCoding](https://github.com/MattBCoding/leinster-trophy/blob/master/README.md), and [Daisy-McG](https://github.com/Daisy-McG/MilestoneProject-1)
 
 
+### Technologies & Tools
+- [Google Fonts]() was used to import the fonts into the style.css file.
+- [Font Awesome](https://fontawesome.com/search) were used generate icons for the social media and the contact details.
+- [Clip Path Generator](https://www.cssportal.com/css-clip-path-generator/) was used to generate the background of the Hero and Footer Section.
+- [Image Compressor](https://tinypng.com/) was used to compressed the images.
+- [Logo Creater](https://looka.com/) was used to create the logo.
+- [Favicon](https://favicon.io/favicon-converter/) was used to generate the code and files for the webpage favicon.
+Balsamiqwas used to create the wireframes during the design process
+- [YouTube](https://www.youtube.com/) was used to generate HTML code for the embedded video.
+- [Google Maps](https://www.google.com/maps) was used to generate HTML cor for the embedded map.
+- [GitHub](https://github.com/) was used to store the code and hoste the website.
+- [Gitpod](https://www.gitpod.io/) is IDE and was used to develop the website.
+- [Formsubmit](https://formsubmit.co/) was used for the form submition.
 
+
+### Acknowledgemetns
+I would like to thank my mentor [Gereth McGirr](https://github.com/Gareth-McGirr) for his guidance throughout my project. I'd like to give a special mention to the student [Carl Murray](https://github.com/CarlMurray) for his time to provide me a valuable feedback.
