@@ -794,13 +794,20 @@ h1, h2, h3, h4 {
 
     .menu__link{
         margin: 0 5px;
-        border-bottom: solid 1px var(--white);
+        border-bottom: solid 2px var(--white);
     }
 
-    .menu__link:hover, .menu__link:focus, .menu__link:active {
+    .menu__link--active{
         color: var(--primary-color);
         background-color: var(--white);
-        border-bottom: 1px solid var(--primary-color);
+        border-bottom: 2px solid var(--primary-color);
+    }
+
+    .menu__link:hover, 
+    .menu__link:active {
+        color: var(--primary-color);
+        background-color: var(--white);
+        border-bottom: 2px solid var(--primary-color);
     }
 
 
