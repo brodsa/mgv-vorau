@@ -57,10 +57,9 @@ The heading font, Raleway, was selected after searching for the best fonts in 20
 ![Pairing of the selected fonts](./assets/documentation/font_pairing.png)
 
 
-
+---
 ## Features
 The layout of the webpage takes into account all eight user stories. Firstly, the entire webpage is desinged in a responsive way to ensure that the webpage is properly displaied on different devices (e.g. a mobile, a desktop). Secondly, the webpage consists of three sites, containing the common components, i.e. navigation menu and footer. This helps the user to easily navigate through the content of the webpage. Lastly, the webpage contains other components or elements which are common practise in webdesign, i.e. logo, hero picture, copyright notice or external links. 
-
 
 ### Common Features
 -  **Navigation Menu**
@@ -106,18 +105,18 @@ The About Us Page introduces the choir, including its history. The page also lis
 
 ### Differences to Desing
 There are several slight differences between the original and the actuall design:
-- Generally, there is more text in the actuall desing.
+- Generally, there is more text in the actuall than original desing.
 - The hamburger menu was not considered in the original design.
 - Four embeded videos for large devices were not implemented because of the difficulities of changing the video sizes.
-- The layout of the footer was slightly modified.
+- The layout of the footer was slightly modified by including more information (e.g. additional contact details)
 - The layout of the Gallery Page was slightly modified.
+- The contect of the About Us Page was better structured by including the History Section. 
 
 ### Future Enhancements
-
-### Design
-
-
-
+- German Language
+    - As the webpage presents the choir from Austria, including the German language is more relevant for the users as the English.
+- Scroll Top Button
+    - When scrolling down the webpage on the mobile devices, the menu bar is not fixed to the top. Therefore, a scroll button would make the webpage even more user friendly.
 
 ---
 
