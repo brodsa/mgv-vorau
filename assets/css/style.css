@@ -351,7 +351,6 @@ h1, h2, h3, h4 {
 }
 
 .calendar__date h3:first-child{
-    /* font-size: 180%; */
     padding-bottom: 5px;
 }
 
@@ -534,7 +533,7 @@ h1, h2, h3, h4 {
 
 
 
-/* gallery page */
+/* -------- gallery page -------- */
 
 .gallery-grid{
     padding: 40px 40px;
@@ -560,7 +559,7 @@ h1, h2, h3, h4 {
 
 
 
-/* about us page */
+/* -------- about us page  --------*/
 
 #about .section__title{
     margin: 0;
@@ -611,15 +610,19 @@ h1, h2, h3, h4 {
 
 
 
-
 @media screen and (min-width: 481px){
 
-    /* header */
+    /* -------- mutual features -------- */
+    .section{
+        margin: 0 30px 90px 30px;
+    }
+
+    /* -------- header -------- */
     .header{
         margin-bottom: 20px;
     }
 
-    /* hero */
+    /* -------- hero  -------- */
     .hero__content{
         margin-top: 0;
     }
@@ -637,12 +640,7 @@ h1, h2, h3, h4 {
         border-radius: 10px;
     }
 
-    .section{
-        margin: 0 30px 90px 30px;
-    }
-
-
-    /* gallery page */
+    /* -------- gallery page --------*/
     .gallery-grid{
         grid-auto-rows: 250px;
         grid-template-columns: repeat(2,1fr);
@@ -654,7 +652,7 @@ h1, h2, h3, h4 {
         grid-column: span 2;
     }
 
-    /* about us page */
+    /* -------- about us page  --------*/
     .people{
         flex-direction: row;
         flex-wrap: wrap;
@@ -671,16 +669,10 @@ h1, h2, h3, h4 {
 }
 
 
+
 @media screen and (min-width: 800px){
 
-    .welcome__text, .welcome__media{
-        flex-basis: 50%
-    }
-
-    .welcome__video{
-        width: 500px;
-    }
-
+    /* -------- mutual features -------- */
     .section__content{
         flex-direction: row;
         align-items: center;
@@ -697,7 +689,17 @@ h1, h2, h3, h4 {
     }
 
 
-    /* calender section */
+    /* -------- welcome section -------- */
+    .welcome__text, .welcome__media{
+        flex-basis: 50%
+    }
+
+    .welcome__video{
+        width: 500px;
+    }
+
+
+    /* -------- calender section -------- */
     .calendar{
         flex-direction: row;
         flex-wrap: wrap;
@@ -705,7 +707,7 @@ h1, h2, h3, h4 {
         gap: 30px
     }
 
-
+    /* -------- contact us section -------- */
     .form{
         flex: 1 40%;
         margin: 0 30px;
@@ -716,6 +718,7 @@ h1, h2, h3, h4 {
         margin: 0 30px;
     }
 
+    /* --------footer section -------- */
     .footer__background{
         height: 400px;
     }
@@ -737,7 +740,7 @@ h1, h2, h3, h4 {
         order:3;
     }
 
-    /* gallery page */
+    /*  -------- gallery page  -------- */
     .gallery-grid{
         grid-auto-rows: 300px;
     }
@@ -749,7 +752,18 @@ h1, h2, h3, h4 {
 
 @media screen and (min-width: 1025px){
 
-    /* header */
+    /* ------- mutual features -------*/
+    .section{
+        width: 950px;
+    }
+
+    .section__title{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+
+    /*  -------- header  -------- */
     .header{
         flex-direction: row;
         justify-content: space-between;
@@ -790,7 +804,7 @@ h1, h2, h3, h4 {
     }
 
 
-    /* hero */
+    /* -------- hero  --------*/
     .hero__image-container{
     
         height: 300px;
@@ -805,20 +819,14 @@ h1, h2, h3, h4 {
         gap: 50px;
     }
 
+    /* ----- news-banner ---- */
+
     #news-banner{
         margin: 90px auto;
     }
 
-    .section{
-        width: 950px;
-    }
-
-    .section__title{
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    /* gallery page */
+   
+    /*  -------- gallery page  --------*/
     .gallery-grid{
         grid-template-rows: 280px;
         grid-template-columns: repeat(3, 1fr);
@@ -826,8 +834,7 @@ h1, h2, h3, h4 {
     }
 
 
-      /* about us page */
-    
+      /*  -------- about us page  --------*/ 
     .people{
         max-width: 800px;
     }
