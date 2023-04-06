@@ -126,7 +126,15 @@ There are several slight differences between the original and the actuall design
 
 ### Validator Testing
 
-- CSS: The W3C CSS Validation did not find any errors, see [the detailed report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)![css validation](./assets/documentation/validator_css.png)
+- Lighthouse
+    - The lighthouse report was generated using the Google Chrome Dev Tools. The test were run for both desktiop and mobile devices.
+    - The initial report indicated the low performance due to the size of hero image. After the image compression, the performance got slightly better.
+    - The score for the best practices was reduced due to the cookies from the social-media link.
+    - Mobile devices ![lighthouse for mobile](./assets/documentation/validator_lighthouse_mobile.png)
+    - Desktop devices ![lighthouse for mobile](./assets/documentation/validator_lighthouse_desktop.png)
+
+- CSS
+    - The W3C CSS Validation did not find any errors, see [the detailed report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)![css validation](./assets/documentation/validator_css.png)
 
 
 ### Bugs or Issues
