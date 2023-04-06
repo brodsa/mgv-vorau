@@ -48,7 +48,6 @@ The layout of the webpage takes into account all eight user stories. Firstly, th
 #### **Footer**
 - The footer is a common component of all three webpages as the navigation menu.
 - The footer contains the links to the social media (US7, US9), contact information (US6) and the copyright notice.
-
 ![Footer](./assets/documentation/structure_footer.png)
 
 #### **Home Page**
@@ -70,12 +69,10 @@ The Home Page consists of 4 sections:
 
 #### **Gallery Page**
 - The Gallery Page contains a selection of the photos from the concerts or other events (US3, US9).
-
 ![Gallery Page](./assets/documentation/structure_gallery-page.png)
 
 #### **About Us Page**
 - The About Us Page introduces the choir, including its history. The page also lists the front persons (US5).
-
 ![About Us Page](./assets/documentation/structure_about-page.png)
 
 
