@@ -128,18 +128,22 @@ There are several slight differences between the original and the actuall design
 
 ---
 ## Bugs
+In general, the addaptation of margins and paddings was always slightly changed to received better appearence, which is, of course, very subjective to the developer. Such type of changes and the correction of typos were not considered as bug.
 
-- accesibility (the original selected colors were not), solution: new color pallete;
+The list of all bugs wich were fixed und documented is listed in the table below.
 
-- in generally, margin and padding was always slightly changed to received better appearence (very subjective to the developer) and typos;
+| Bug                                                                               | Solution                                                                                                                            |
+|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Colour accessibility                                                              | New colour pallete was chosen.                                                                                                      |
+| The width of the menu bar is inconsistent in all pages when using mobile devices. | The margin was added to the header in About Us and Gallery Page.                                                                    |
+| Calendar items are not large enough, causing the text is hidden.                  | The width of the item was increased.                                                                                                |
+| Buttons of the form have different appearence on mobile devices than on notebooks | The problem was googled and a post solving the issue was found on [stack overflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone). The property, `-webkit-appearance: none;` , was added to the css class.   |
+|                                                                                   |                                                                                                                                     |
+|                                                                                   |                                                                                                                                     |
+|                                                                                   |                                                                                                                                     |
 
-- the width is not consistent in all pages when using mobile devices; solution: added marging to the header in the about and about us page
 
-- calender items are not large enough, text is hidden; solution: make the widht larger
-
-- buttons in the form have different appearence on mobile devices than on notebooks; solution: add `-webkit-appearance: none` to the css class; according to [stack overlow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone)
-
-- style commit: related to css styles; solution: used in refact
+It should be noted that during the development commit type was included in the message, following [the blog post](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/). A slight difference was,unfortunately, considered. The commit message `commit -m "style:"` was used for the css styling of the webpage. The changes in the code style, like removing the comments, was considered as the commit message `commit -m "refact:"`. 
 
 ---
 
@@ -149,14 +153,11 @@ There are several slight differences between the original and the actuall design
 
 ## Credits
 - [Responsive iframes](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
-
 - [Icons](https://fontawesome.com/search)
 
-- Content
+- [Content and Images]() were taken from the original webpage.
 
-- images 
-
-- [profile placeholder](https://www.pngfind.com/download/hJmwxix_image-placeholder-png-user-profile-placeholder-image-png/)
+- [Profile placeholder](https://www.pngfind.com/download/hJmwxix_image-placeholder-png-user-profile-placeholder-image-png/) was taken for the missing profile pictures. The pictures should be added soon.
 
 ### Inspirations
 https://www.castlechorus.co.uk/
