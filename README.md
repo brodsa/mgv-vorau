@@ -138,16 +138,20 @@ The list of all bugs wich were fixed und documented is listed in the table below
 | The width of the menu bar is inconsistent in all pages when using mobile devices. | The margin was added to the header in About Us and Gallery Page.                                                                    |
 | Calendar items are not large enough, causing the text is hidden.                  | The width of the item was increased.                                                                                                |
 | Buttons of the form have different appearence on mobile devices than on notebooks | The problem was googled and a post solving the issue was found on [stack overflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone). The property, `-webkit-appearance: none;` , was added to the css class.   |
-|                                                                                   |                                                                                                                                     |
-|                                                                                   |                                                                                                                                     |
-|                                                                                   |                                                                                                                                     |
 
-
-It should be noted that during the development commit type was included in the message, following [the blog post](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/). A slight difference was,unfortunately, considered. The commit message `commit -m "style:"` was used for the css styling of the webpage. The changes in the code style, like removing the comments, was considered as the commit message `commit -m "refact:"`. 
+It should be noted that during the development, the commit type was included in the message, following [the blog post](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/). A slight difference was ,unfortunately, considered. The commit message `commit -m "style:"` was used for the css styling of the webpage. The changes in the code style, like removing the comments, was considered as the commit message `commit -m "refact:"`. 
 
 ---
 
 ## Deployment
+The site was deployed to GitHub pages. The steps to deploy the webpage were following: 
+- In the GitHub repository, go to the Settings section.
+- Find the Page category on the left hand side.
+- Under the Branch section, select the source branch from the drop-down menu (e.g. master branch )
+- Once the master branch has been selected, the page url will be generated - this indicates the successful deployment. 
+  
+The website can be viewed [here](https://brodsa.github.io/mgv-vorau/).
+
 
 ---
 
