@@ -44,12 +44,16 @@ The wireframes were created using the program balsamiq. Two versions of the webp
 
 
 ### Colours
-The colour pallete was changed during the development of the homepage several times. The [initial colour schema](https://coolors.co/21b8a4-cecbcb-3d4849-f5f5f5) was chosen manually without checking the accessibility. After testing, it turned out that the colours are very poor in terms of accessibility. Therefore, new shema was selected based on the popular colour pallete (see [here]())
+The colour pallete was changed during the development of the homepage several times. The [initial colour schema](https://coolors.co/21b8a4-cecbcb-201f1f-f5f5f5) was chosen manually without checking the accessibility. After testing, it turned out that the colours are very poor in terms of accessibility. Therefore, new shema was selected based on the popular colour pallete, see [here](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578). The colours also fit to the chosen photo in the hero section of the homepage.
+![Colour Pallete](./assets/documentation/color_palette.png)
+
+The accessibility of the chosen colours was tested by the tool [toolness](https://github.com/toolness/accessible-color-matrix). The usage of the colour follows the adviced colour combinations, see the full report [here](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E).
+![Colour Accessiblity](./assets/documentation/color_palette_accessibility.png)
+
+
 
 ### Fonts
 The heading font, Raleway, was selected after searching for the best fonts in 2023, see [here](https://kinsta.com/blog/best-google-fonts/#:~:text=Roboto.,appearances%20on%20Google%20Fonts'%20analytics.). The suitable body text font, Roboto, was chosen based on the [blog post](https://www.figma.com/google-fonts/raleway-font-pairings/#:~:text=Raleway%20font%20pairing,PT%20Sans%2C%20and%20Open%20Sans.) by Figma.
-
-
 ![Pairing of the selected fonts](./assets/documentation/font_pairing.png)
 
 
