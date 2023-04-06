@@ -36,8 +36,108 @@ h1, h2, h3, h4 {
     text-transform: capitalize;
 }
 
+/* --------- mutual components  ---------*/
 
-/* header */
+.button{
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 100%;
+    color: var(--black);
+    outline: solid 1px var(--black);
+    margin:  10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    -webkit-appearance: none;
+}
+
+.botton-primary{
+    background-color: var(--white);
+}
+
+.button-secondary{
+    background-color:var(--primary-color);
+    color:var(--white)
+}
+
+.button-tertiary{
+    background-color:var(--secondary-color);
+}
+
+.button:hover,.button:active, button:focus{
+    scale: 1.05;
+}
+
+.button-primary:active,.button-primary:focus{
+    background-color: var(--secondary-color-light);
+}
+
+.button-secondary:active,.button-secondary:focus{
+    background-color: var(--primary-color-light);
+}
+
+.button-tertiary:active,.button-tertiary:focus{
+    background-color: var(--secondary-color-light);
+}
+
+
+.link{
+    text-decoration: none;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.link:hover{
+    font-weight: bold;
+}
+
+.link--large{
+    font-size: 20px;
+}
+
+
+.section{
+    margin: 0 30px 60px 30px;
+}
+
+.section__title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.section__subtitle{
+    text-align: center;
+    margin: 60px 0 30px;
+}
+
+
+.section__content{
+    display:flex;
+    flex-direction: column;
+}
+
+.section__text{
+    margin-bottom: 20px;
+}
+
+.section__paragraph{
+    margin-bottom: 10px;
+}
+
+.section__paragraph--center{
+    text-align: center;
+}
+
+.section__paragraph--highlight{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+
+/* -------- header -------------- */
 .header{
     display: flex;
     flex-direction: column;
@@ -116,7 +216,7 @@ h1, h2, h3, h4 {
 }
 
 
-/* hero */
+/* -------- hero --------- */
 .hero{
     position: relative;
 }
@@ -171,7 +271,7 @@ h1, h2, h3, h4 {
 }
 
 
-/* news section */
+/* --------- news section --------- */
 #news-banner{
     margin-top: 30px;  
     margin-bottom: 60px;
@@ -202,8 +302,7 @@ h1, h2, h3, h4 {
 
 }
 
- /* welcome section */
-
+ /* --------- welcome section --------- */
 .welcome__media{
     display: flex;
     flex-direction: column;
@@ -216,7 +315,8 @@ h1, h2, h3, h4 {
     margin: 10px auto;
 }
 
-/* calender section */
+
+/* --------- calender section --------- */
 .calendar{
     display:flex;
     flex-direction: column;
@@ -279,7 +379,7 @@ h1, h2, h3, h4 {
 }
 
 
-/* contact us */
+/* --------- contact us --------- */
 .form{
     max-width: 400px;
     margin: 0 auto;
@@ -347,7 +447,7 @@ h1, h2, h3, h4 {
     border: none;
 }
 
-/* footer */
+/* --------- footer --------- */
 .footer{
     position:relative;
     font-size: smaller;
@@ -432,98 +532,6 @@ h1, h2, h3, h4 {
     font-weight: bold;
 }
 
-
-/* mutual components */
-
-.button{
-    padding: 5px 20px;
-    border-radius: 2px;
-    font-family: inherit;
-    font-size: 100%;
-    color: var(--black);
-    margin:  10px;
-    text-transform: uppercase;
-    cursor: pointer;
-    font-weight: bold;
-    -webkit-appearance: none;
-}
-
-.botton-primary{
-    background-color: var(--white);
-}
-
-.button-secondary{
-    background-color:var(--primary-color);
-    color:var(--white)
-}
-
-.button-tertiary{
-    background-color:var(--secondary-color);
-}
-
-.button:hover{
-    scale: 1.05;
-}
-
-.button:active, button:focus{
-    scale: 1.05;
-    background-color: var(--secondary-color);
-    border: 1px solid var(--black);
-}
-
-.link{
-    text-decoration: none;
-    color: var(--black);
-    cursor: pointer;
-}
-
-.link:hover{
-    font-weight: bold;
-}
-
-.link--large{
-    font-size: 20px;
-}
-
-
-.section{
-    margin: 0 30px 60px 30px;
-}
-
-.section__title{
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-
-.section__subtitle{
-    text-align: center;
-    margin: 60px 0 30px;
-}
-
-
-.section__content{
-    display:flex;
-    flex-direction: column;
-}
-
-.section__text{
-    margin-bottom: 20px;
-}
-
-.section__paragraph{
-    margin-bottom: 10px;
-}
-
-.section__paragraph--center{
-    text-align: center;
-}
-
-.section__paragraph--highlight{
-    font-style: italic;
-    font-weight: bold;
-    margin-top: 30px;
-}
 
 
 /* gallery page */
