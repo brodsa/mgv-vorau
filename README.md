@@ -126,6 +126,15 @@ There are several slight differences between the original and the actuall design
 
 ### Validator Testing
 
+- CSS
+    - The W3C CSS Validation did not find any errors, see [the detailed report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)![css validation](./assets/documentation/validator_css.png)
+
+- HTML
+   - The initial validation revelead several issues, which were fixed.
+        - `button` tags cannot be a desended of `a` tags and vice verse: `button` was removed
+        - dublicated class attributes: a class was removed
+        - `div` element is not allowed to be a child element of `label`: the logo was styled differently
+
 - Lighthouse
     - The lighthouse report was generated using the Google Chrome Dev Tools. The test were run for both desktiop and mobile devices.
     - The initial report indicated the low performance due to the size of hero image. After the image compression, the performance got slightly better.
@@ -133,16 +142,15 @@ There are several slight differences between the original and the actuall design
     - Mobile devices ![lighthouse for mobile](./assets/documentation/validator_lighthouse_mobile.png)
     - Desktop devices ![lighthouse for mobile](./assets/documentation/validator_lighthouse_desktop.png)
 
-- CSS
-    - The W3C CSS Validation did not find any errors, see [the detailed report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)![css validation](./assets/documentation/validator_css.png)
 
 
-### Bugs or Issues
+
+### Bugs and Issues
 In general, the addaptation of margins and paddings was always slightly changed to received better appearence, which is, of course, very subjective to the developer. Such type of changes and the correction of typos were not considered as bug.
 
 The list of all bugs wich were fixed und documented is listed in the table below.
 
-| Bug  or Issue                                                                             | Solution                                                                                                                            |
+| Bug  and Issue                                                                             | Solution                                                                                                                            |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Colour accessibility                                                              | New colour pallete was chosen.                                                                                                      |
 | The width of the menu bar is inconsistent in all pages when using mobile devices. | The margin was added to the header in About Us and Gallery Page.                                                                    |
