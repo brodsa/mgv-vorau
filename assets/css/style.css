@@ -142,9 +142,10 @@ h1, h2, h3, h4 {
     text-decoration: none;
 }
 
-.logo{
+/* .logo{
     display:none;
-}
+} */
+
 
 .menu__checkbox{
     position: absolute;
@@ -153,6 +154,11 @@ h1, h2, h3, h4 {
 
 .menu__toggler{
     cursor: pointer;
+}
+
+
+.menu__toggler p{
+    text-align: center;
 }
 
 .logo__hamburger{
@@ -188,8 +194,7 @@ h1, h2, h3, h4 {
 
 .menu__item{
     border-bottom: 1px solid var(--primary-color);
-    font-size: 18px;
-}
+    font-size: 18px;}
 
 .menu__link {
     display: block;
