@@ -142,6 +142,8 @@ h1, h2, h3, h4 {
     text-decoration: none;
 }
 
+
+
 .menu-container{
     margin: 0 auto;
 }
@@ -154,11 +156,8 @@ h1, h2, h3, h4 {
 
 .menu__toggler{
     cursor: pointer;
-}
-
-
-.menu__toggler p{
-    text-align: center;
+    color:var(--primary-color);
+    font-size: 200%;
 }
 
 .logo__hamburger{
@@ -211,6 +210,12 @@ h1, h2, h3, h4 {
 
 .menu__checkbox:checked ~ .menu__list{
     display:block;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
