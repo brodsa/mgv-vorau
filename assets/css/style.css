@@ -146,6 +146,10 @@ h1, h2, h3, h4 {
     display:none;
 } */
 
+.menu-container{
+    margin: 0 auto;
+}
+
 
 .menu__checkbox{
     position: absolute;
