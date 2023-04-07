@@ -1,12 +1,23 @@
 # Vorau Choir
 
+## Table of Contents
+- [Introduction](#introduction)
+- [UX](#ux)
+- [Features](#features)
+- [Testing](#testing);
+- [Deployment](#deployment)
+- [References](#references)
+- [Acknowledgements](#acknowledgemetns)
+
+---
+
 ## Introduction
 
 This website is the redesign of the existing homepage of [The Choir Vorau](http://www.mgv-vorau.at/), originally created in German. The Choir Vorau is a mixed-voice choir located in Vorau, Styria, Austria. The Vorau municipality is located in a culturally rich area, which attracts a lot of tourists. Vorau is especially famous for the historical abbey, where the choir organizes several concerts per year. The choir can also be heard during the regular singing rehearsal. Besides, the choir members organize other events, such as trips or singing with another choir. You can find the website [here](https://brodsa.github.io/mgv-vorau/).
 
 ![Mockup of the website](./assets/documentation/mockup.png)
 
---- 
+
 <br>
 
 ## UX
@@ -139,9 +150,12 @@ Generally, the testing was considered during the entire development of the webpa
 
 - HTML
    - The initial validation revelead several issues, which were fixed.
-        - `button` tags cannot be a descendant of `a` tags and vice verse: `button` was removed
-        - duplicated class attributes: a class was removed
-        - `div` element is not allowed to be a child element of `label`: remove the div and style the menu bar for mobile devices differently
+
+        | Issue | Solution |
+        |------|----------|
+        |`button` tags cannot be a descendant of `a` tags and vice verse| `button` tag was removed
+        |duplicated class attributes| a class was removed|
+        |`div` element is not allowed to be a child element of `label`| `div` was removed and the menu bar was styled differently for mobile devices| 
 
    - The final report did not show any errors or warnings for all three pages ![HTML Validation](./assets/documentation/validator_html.png)
         - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Findex.html)
@@ -161,7 +175,7 @@ Generally, the testing was considered during the entire development of the webpa
 ### Bugs and Issues
 In general, the addaptation of margins and paddings was always slightly changed to received better appearence, which is, of course, very subjective to the developer. Such type of changes and the correction of typos were not considered as bug.
 
-The list of all bugs wich were fixed und documented is listed in the table below.
+The list of additional bugs/issues, wich were fixed, is listed in the table below.
 
 | Bug  and Issue                                                                             | Solution                                                                                                                            |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
