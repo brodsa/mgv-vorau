@@ -121,19 +121,32 @@ There are several slight differences between the original and the actuall design
 ---
 
 ## Testing
+Generally, the testing was considered during the entire development of the webpage. After impementig a feature or style the component, the implementation was tested. In the end, more thorough manual testing was conducted. Finally, the existing validation tools were used.
 
 ### Manual Testing
+- The website was tested on various devices (mobile, laptop, and desktop) on with vairous browsers were used (Chroma, Safary, Firefox, and Edge)
+- Several aspects were considered during the test, such as: 
+   - responsiveness
+   - visual effects (consistency of margin and padding accross all pages)
+   - hover effects on links and buttons
+   - highlighting of the active page
+   - form submission
+   - opening link in a new tab
 
 ### Validator Testing
-
 - CSS
     - The W3C CSS Validation did not find any errors, see [the detailed report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)![css validation](./assets/documentation/validator_css.png)
 
 - HTML
    - The initial validation revelead several issues, which were fixed.
-        - `button` tags cannot be a desended of `a` tags and vice verse: `button` was removed
-        - dublicated class attributes: a class was removed
-        - `div` element is not allowed to be a child element of `label`: the logo was styled differently
+        - `button` tags cannot be a descendant of `a` tags and vice verse: `button` was removed
+        - duplicated class attributes: a class was removed
+        - `div` element is not allowed to be a child element of `label`: remove the div and style the menu bar for mobile devices differently
+
+   - The final report did not show any errors or warnings for all three pages ![HTML Validation](./assets/documentation/validator_html.png)
+        - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Findex.html)
+        - [About Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fabout.html)
+        - [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fgallery.html)
 
 - Lighthouse
     - The lighthouse report was generated using the Google Chrome Dev Tools. The test were run for both desktiop and mobile devices.
