@@ -637,6 +637,14 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
+
+
+#e404 .section__title{
+    margin: 0;
+    padding: 60px 0 40px;
+}
+
+
 @media screen and (min-width: 370px){
     .hero__image-container{
         height: 150px;
