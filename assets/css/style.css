@@ -558,10 +558,10 @@ h1, h2, h3, h4 {
 /* -------- gallery page -------- */
 
 .gallery-grid{
-    padding: 40px 40px;
-    margin: 0 auto 40px auto;
+    padding: 40px 20px;
+    margin: 0 auto 80px auto;
     display: grid;
-    grid-auto-rows: 250px;
+    grid-auto-rows: 170px;
     grid-template-columns: 1fr;
     justify-content: center;
     gap: 5px;
@@ -662,6 +662,11 @@ h1, h2, h3, h4 {
         margin-top: 30px;
     }
     
+    .gallery-grid{
+    padding: 40px 40px;
+    margin: 0 auto 40px auto;
+    grid-auto-rows: 250px;
+}
 }
 
 
