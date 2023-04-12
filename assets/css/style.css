@@ -48,6 +48,7 @@ h1, h2, h3, h4 {
     /* outline: solid 1px var(--black); */
     margin:  10px;
     text-transform: uppercase;
+    text-align: center;
     cursor: pointer;
     font-weight: bold;
     -webkit-appearance: none;
@@ -256,7 +257,7 @@ h1, h2, h3, h4 {
 
 .hero__image-container{
     height: 150px;
-    width: 300px;
+    width: 250px;
 }
 
 .hero__image{
@@ -617,6 +618,13 @@ h1, h2, h3, h4 {
 
 .history__img{
     width: 100%;
+}
+
+@media screen and (min-width: 370px){
+    .hero__image-container{
+        height: 150px;
+        width: 300px;
+    }
 }
 
 
