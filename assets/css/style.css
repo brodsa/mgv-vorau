@@ -585,23 +585,27 @@ h1, h2, h3, h4 {
 
 #about .section__title{
     margin: 0;
-    padding: 60px 0;
+    padding: 60px 0 40px;
 }
 
 .people{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center;  
+
+    margin-top: 40px;
 }
+
 
 .person{
     margin-bottom: 40px;
 }
 
+
 .person__photo{
     width: 150px;
     height: 150px;
+    padding-bottom: 5px;
     
 }
 
@@ -619,6 +623,9 @@ h1, h2, h3, h4 {
 
 .person__info--bold{
     font-weight: bold;
+}
+.history{
+    padding-bottom: 30px;
 }
 
 .history__photo{
@@ -666,7 +673,7 @@ h1, h2, h3, h4 {
     padding: 40px 40px;
     margin: 0 auto 40px auto;
     grid-auto-rows: 250px;
-}
+    }
 }
 
 
