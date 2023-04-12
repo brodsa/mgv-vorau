@@ -227,7 +227,7 @@ h1, h2, h3, h4 {
 
 .hero__background{
     background: var(--secondary-color);
-    height: 400px;
+    height: 450px;
     width: 100%;
     clip-path: polygon(50% 85%, 100% 70%, 100% 0, 0 0, 0% 70%);
     position:absolute;
@@ -255,7 +255,7 @@ h1, h2, h3, h4 {
 }
 
 .hero__image-container{
-    height: 120px;
+    height: 150px;
     width: 300px;
 }
 
