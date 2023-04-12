@@ -40,11 +40,12 @@ h1, h2, h3, h4 {
 
 .button{
     padding: 5px 20px;
-    border-radius: 5px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-family: inherit;
     font-size: 100%;
     color: var(--black);
-    outline: solid 1px var(--black);
+    /* outline: solid 1px var(--black); */
     margin:  10px;
     text-transform: uppercase;
     cursor: pointer;
