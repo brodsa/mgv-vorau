@@ -440,7 +440,7 @@ h1, h2, h3, h4 {
 }
 
 .location{
-    margin: 30px 30px;
+    margin: 30px 30px 50px;
 }
 
 .location__map{
@@ -466,7 +466,7 @@ h1, h2, h3, h4 {
 .footer{
     position:relative;
     font-size: smaller;
-    color:var(--white)
+    color:var(--white);
 }
 
 .footer__background{
@@ -487,6 +487,7 @@ h1, h2, h3, h4 {
     border-bottom: 1px solid var(--white);
     display: inline-block;
 }
+
 
 .footer__link{
     text-decoration: none;
@@ -624,6 +625,8 @@ h1, h2, h3, h4 {
 .person__info--bold{
     font-weight: bold;
 }
+
+/* ------- history section ------- */
 .history{
     padding-bottom: 30px;
 }
@@ -638,29 +641,41 @@ h1, h2, h3, h4 {
 }
 
 
-
+/* ------- 404 page ------- */
 #e404 .section__title{
     margin: 0;
     padding: 60px 0 40px;
 }
 
+/* -------------------------------------------------- */
+/* -------- media query min-width 370px ------------- */
+/* -------------------------------------------------- */
 
 @media screen and (min-width: 370px){
+
+    /* ------- hero section ------- */
     .hero__image-container{
         height: 150px;
         width: 300px;
     }
 
+    /* ------- calendar section ------- */
     .calendar__item{
         height: 120px;
         width: 300px;
     }
 
+    /* ------- footer section ------- */
+
     .footer__background{
         height: 560px;
-        clip-path: polygon(50% 60%, 100% 40%, 100% 100%, 0 100%, 0% 40%);
+        clip-path: polygon(50% 55%, 100% 40%, 100% 100%, 0 100%, 0% 40%);
     }
-    
+
+    .footer__content{
+        margin-top: 10px;
+    }
+        
     .footer__links,.footer__contact {
         flex: 1 1 50%;
     }
@@ -678,6 +693,7 @@ h1, h2, h3, h4 {
         margin-top: 30px;
     }
     
+    /* ------- gallery page ------- */
     .gallery-grid{
     padding: 40px 40px;
     margin: 0 auto 40px auto;
@@ -685,7 +701,9 @@ h1, h2, h3, h4 {
     }
 }
 
-
+/* -------------------------------------------------- */
+/* -------- media query min-width 481px ------------- */
+/* -------------------------------------------------- */
 
 @media screen and (min-width: 481px){
 
@@ -717,6 +735,11 @@ h1, h2, h3, h4 {
         border-radius: 10px;
     }
 
+    /* -------- footer --------*/
+    .footer__background{
+        clip-path: polygon(50% 60%, 100% 40%, 100% 100%, 0 100%, 0% 40%);
+    }
+
     /* -------- gallery page --------*/
     .gallery-grid{
         grid-auto-rows: 250px;
@@ -746,6 +769,9 @@ h1, h2, h3, h4 {
 }
 
 
+/* -------------------------------------------------- */
+/* -------- media query min-width 800px ------------- */
+/* -------------------------------------------------- */
 
 @media screen and (min-width: 800px){
 
@@ -826,6 +852,10 @@ h1, h2, h3, h4 {
 
 
 }
+
+/* -------------------------------------------------- */
+/* -------- media query min-width 1025px ------------- */
+/* -------------------------------------------------- */
 
 @media screen and (min-width: 1025px){
 
