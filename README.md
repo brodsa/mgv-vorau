@@ -189,13 +189,26 @@ It should be noted that during the development, the commit type was included in 
 ---
 
 ## Deployment
-The site was deployed to GitHub pages. The steps to deploy the webpage were following: 
+The site was deployed to GitHub Pages. The steps to deploy the webpage were following: 
 - In the GitHub repository, go to the Settings section.
 - Find the Page category on the left hand side.
-- Under the Branch section, select the source branch from the drop-down menu (e.g. master branch )
+- Under the Branch section, select the source branch from the drop-down menu (e.g. master branch).
+- Click on Save button.
 - Once the master branch has been selected, the page url will be generated - this indicates the successful deployment. 
   
 The website can be viewed [here](https://brodsa.github.io/mgv-vorau/).
+
+## Clone the Repository
+The repository can also be clone locally, the steps to do it are following:
+
+1. On Git
+    - Go the the repository you want to clone.
+    - You see the content of the reposiory, i.e. all the files are listed. On the right side at the top of the list, find the Code dropdown button and click on it.
+    - Copy the repository HTTPS link to the clipboard.
+2. In terminal (Note: git must be installed) 
+    - Open the terminal and navigate, where you want to clone the repository. Alternatively: Open an IDE of choice and open the IDE terminal
+    - Type `git clone https://github.com/brodsa/mgv-vorau.git` 
+    - Once the project is cloned, you can start using the repository locally.
 
 
 ---
