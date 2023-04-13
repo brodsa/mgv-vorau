@@ -222,6 +222,7 @@ The website can be viewed [here](https://brodsa.github.io/mgv-vorau/).
 - [Font Awesome](https://fontawesome.com/search) were used generate icons for the social media and the contact details.
 - [Clip Path Generator](https://www.cssportal.com/css-clip-path-generator/) was used to generate the background of the Hero and Footer Section.
 - [Image Compressor](https://tinypng.com/) was used to compressed the images.
+- [Image Convertor](https://ezgif.com/) was used to comvert all images in the webp format.
 - [Logo Creater](https://looka.com/) was used to create the logo.
 - [Favicon](https://favicon.io/favicon-converter/) was used to generate the code and files for the webpage favicon.
 Balsamiqwas used to create the wireframes during the design process
