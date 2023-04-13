@@ -37,6 +37,19 @@ h1, h2, h3, h4 {
 }
 
 /* --------- mutual components  ---------*/
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+  }
 
 .button{
     padding: 5px 20px;
@@ -778,6 +791,13 @@ h1, h2, h3, h4 {
 /* -------------------------------------------------- */
 
 @media screen and (min-width: 800px){
+
+    #myBtn {
+ 
+        bottom: 20px;
+        right: 10px;
+        
+      }
 
     /* -------- mutual features -------- */
     .section__content{

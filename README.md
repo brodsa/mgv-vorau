@@ -227,7 +227,9 @@ The repository can also be clone locally, the steps to do it are following:
 - [The hero section](https://www.castlechorus.co.uk/) inspired the Hero and Footer Section of the webpage.
 - [The events calendar](https://www.nicepng.com/ourpic/u2t4i1a9w7o0i1i1_march-website-event-calendar-design/ ) inspired the Calendar section of the webpage.
 - The way of presenting the information in footer was inspired by the [THRIVE Jucies nad Smoothies](https://elainebroche-dev.github.io/ms1-thrive/index.html)
-- The style and structure of README were inspired by the alumni and mentors of the Code Institute: [eleinebroche-dev](https://github.com/elainebroche-dev/ms1-thrive), [MattBCoding](https://github.com/MattBCoding/leinster-trophy/blob/master/README.md),[Daisy-McG](https://github.com/Daisy-McG/MilestoneProject-1), and [Gareth McGirr](https://github.com/Gareth-McGirr)
+- The style and structure of README were inspired by the alumni and mentors of the Code Institute: [eleinebroche-dev](https://github.com/elainebroche-dev/ms1-thrive), [MattBCoding](https://github.com/MattBCoding/leinster-trophy/blob/master/README.md),[Daisy-McG](https://github.com/Daisy-McG/MilestoneProject-1), and [Gareth McGirr](https://github.com/Gareth-McGirr).
+- [Box shadow](https://getcssscan.com/css-box-shadow-examples)
+- [Scroll back to the top button](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp).
 
 
 ### Technologies & Tools
