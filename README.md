@@ -132,17 +132,64 @@ There are several slight differences between the original and the actuall design
 ---
 
 ## Testing
-Generally, the testing was considered during the entire development of the webpage. After impementig a feature or style the component, the implementation was tested. In the end, more thorough manual testing was conducted. Finally, the existing validation tools were used.
+Generally, the testing was considered during the entire development of the webpage. After implementig a feature or style the component, the implementation was tested. In the end, more thorough manual testing was conducted. Finally, the existing validation tools were used.
 
 ### Manual Testing
-- The website was tested on various devices (mobile, laptop, and desktop) on with vairous browsers were used (Chroma, Safary, Firefox, and Edge)
-- Several aspects were considered during the test, such as: 
-   - responsiveness
-   - visual effects (consistency of margin and padding accross all pages)
-   - hover effects on links and buttons
-   - highlighting of the active page
-   - form submission
-   - opening link in a new tab
+- The website was tested on various devices (mobile and laptop) and in various web browsers (Chroma, Safary, Firefox, and Edge). In additional, the Google Chrome DevTool was used fill the gap of testing the website on even more screen sizes.
+
+
+Following aspects were considered during the test: 
+
+<details>
+<summary>Responsivness</summary>
+
+* Vegetables
+* Fruits
+* Fish
+</details>
+
+<details>
+<summary>Maring & Paddings</summary>
+
+* (consistency of margin and padding accross all pages)
+* Fruits
+* Fish
+</details>
+
+<details>
+<summary>hover effects on links and buttons</summary>
+
+* Vegetables
+* Fruits
+* Fish
+</details>
+
+<details>
+<summary>highlighting of the active page</summary>
+
+* Vegetables
+* Fruits
+* Fish
+</details>
+
+
+<details>
+<summary>form submission</summary>
+
+* Vegetables
+* Fruits
+* Fish
+</details>
+
+
+<details>
+<summary>opening link in a new tab</summary>
+
+* Vegetables
+* Fruits
+* Fish
+</details>
+
 
 ### Validator Testing
 - CSS
