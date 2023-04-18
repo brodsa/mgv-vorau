@@ -246,15 +246,15 @@ The site was deployed to GitHub Pages. The steps to deploy the webpage were foll
 The website can be viewed [here](https://brodsa.github.io/mgv-vorau/).
 
 ## Clone the Repository
-The repository can also be clone locally, the steps to do it are following:
+The repository can also be cloned locally, the steps are following:
 
 1. On Git
-    - Go the the repository you want to clone.
+    - Go to the repository you want to clone, e.g. https://github.com/brodsa/mgv-vorau
     - You see the content of the reposiory, i.e. all the files are listed. On the right side at the top of the list, find the Code dropdown button and click on it.
     - Copy the repository HTTPS link to the clipboard.
-2. In terminal (Note: git must be installed) 
-    - Open the terminal and navigate, where you want to clone the repository. Alternatively: Open an IDE of choice and open the IDE terminal
-    - Type `git clone https://github.com/brodsa/mgv-vorau.git` 
+2. In the terminal (Note: git must be pre-installed) 
+    - Open the terminal and navigate, where you want to clone the repository.
+    - Type `git clone` and insert the content from the clipboard, leading to the command `git clone https://github.com/brodsa/mgv-vorau.git`. 
     - Once the project is cloned, you can start using the repository locally.
 
 
