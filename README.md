@@ -56,10 +56,10 @@ The wireframes were created using the program balsamiq. Two versions of the webp
 
 ### Colours
 The colour pallete was changed during the development of the homepage several times. The [initial colour schema](https://coolors.co/21b8a4-cecbcb-201f1f-f5f5f5) was chosen manually without checking the accessibility. After testing, it turned out that the colours are very poor in terms of accessibility. Therefore, new shema was selected based on the popular colour pallete, see [here](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578). The colours also fit to the chosen photo in the hero section of the homepage.
-![Colour Pallete](./assets/documentation/color_palette.png)
+![Colour Pallete](./assets/documentation/ux/color_palette.png)
 
 The accessibility of the chosen colours was tested by the tool [toolness](https://github.com/toolness/accessible-color-matrix). The usage of the colour follows the adviced colour combinations, see the full report [here](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E).
-![Colour Accessiblity](./assets/documentation/color_palette_accessibility.png)
+![Colour Accessiblity](./assets/documentation/ux/color_palette_accessibility.png)
 
 
 
@@ -82,64 +82,64 @@ The layout of the webpage takes into account all eight user stories. Firstly, th
         - *Gallery* navigates the user to the Gallery Page.
         - *Get In Touch* navigates the user to the Get in Touch Section. 
     - The navigation menu is displayd as hamburger on the small devices (US2).
-    ![Menu](./assets/documentation/structure_menu.png)
+    ![Menu](./assets/documentation/features/structure_menu.png)
 
 - **Footer**
     - The footer is a common component of all three webpages as the navigation menu.
     - The footer contains the links to the social media (US7, US9), contact information (US6) and the copyright notice.
-    ![Footer](./assets/documentation/structure_footer.png)
+    ![Footer](./assets/documentation/features/structure_footer.png)
 
 ### **Home Page Features**
 The Home Page consists of 4 sections including the listed features:
  - **Hero Section** includes the name, slogan and photo of the choir. Additionaly, there are two buttons *Listen to Us* and *Join Us* resp. which directs the user to Calender (US4, US9) and Get In Touch (US6) resp. Section quickly.
- ![Hero](./assets/documentation/structure_hero.png)
+ ![Hero](./assets/documentation/features/structure_hero.png)
 
  - **News Banner** serves for important announcements, such as upcomming concerts, new published on-line videos or concert cancellation (US8).
-![News Banner](./assets/documentation/structure_news-banner.png)
+![News Banner](./assets/documentation/features/structure_news-banner.png)
 
  - **Welcome Section** introduces the choir briefly. An embedend Youtube video of the choir sining is included (US3). 
- ![Welcome Section](./assets/documentation/structure_welcome-section.png)
+ ![Welcome Section](./assets/documentation/features/structure_welcome-section.png)
 
  - **Calendar Section** lists all upcoming concerts and singing rehearsal (US4, US8).
-![Calendar Section](./assets/documentation/structure_calendar-section.png)
+![Calendar Section](./assets/documentation/features/structure_calendar-section.png)
 
  - *Get In Touch Section* includes contact form and the rehearsal location (US6). 
- ![Get In Touch Section](./assets/documentation/structure_contact-section.png)
+ ![Get In Touch Section](./assets/documentation/features/structure_contact-section.png)
 
 ### **Gallery Page Features**
 The Gallery Page contains a selection of the photos from the concerts or other events (US3, US9).
-![Gallery Page](./assets/documentation/structure_gallery-page.png)
+![Gallery Page](./assets/documentation/features/structure_gallery-page.png)
 
 ### **About Us Page Features**
 The About Us Page introduces the choir, including its history. The page also lists the front persons (US5).
-![About Us Page](./assets/documentation/structure_about-page.png)
+![About Us Page](./assets/documentation/features/structure_about-page.png)
 
-### Differences to Desing
-There are several slight differences between the original and the actuall design:
-- Generally, there is more text in the actuall than original desing.
+### Differences to Design
+There are several slight differences between the original and the actual design:
+- Generally, there is more text in the actual design than in the original one.
 - The hamburger menu was not considered in the original design.
-- Four embeded videos for large devices were not implemented because of the difficulities of changing the video sizes, i.e. dificulties with the responsivness of iframes for embedded videos. 
+- Four embedded videos were not implemented for large devices due to the difficulties of changing the video sizes, i.e. difficulties with the responsivness of iframes for embedded videos. 
 - The layout of the footer was slightly modified by including more information (e.g. additional contact details)
 - The layout of the Gallery Page was slightly modified.
-- The contect of the About Us Page was better structured by including the History Section. 
+- The content of the About Us Page was differently structured by including the History Section. 
 
 ### Future Enhancements
 - German Language
-    - As the webpage presents the choir from Austria, including the German language is more relevant for the users as the English.
+    - As the webpage presents the choir from Austria, including the German language is more relevant for the users than the English.
 
 ---
 
 ## Testing
-Generally, the testing was considered during the entire development of the webpage. After implementing a feature or styling the component, the the webpage was tested. In the end, more thorough manual testing was conducted. Finally, the existing validation tools were used.
+Generally, testing was considered during the entire development of the webpage. After implementing a feature or styling the component, the the webpage was tested. In the end, more thorough manual testing was conducted. Finally, the existing validation tools were used.
 
 ### Manual Testing
-- The website was tested on various devices (mobile: iPhone8, TODO; and laptop: ) and in various web browsers (Chroma, Safary, Firefox, and Edge). In additional, the Google Chrome DevTool was used to fill the gap of testing the website on even more screen sizes.
+- The website was tested on various devices (mobile: iPhone8, TODO; and laptop: Dell XPS13) and in various web browsers (Chroma, Safary, Firefox, and Edge). In additional, the Google Chrome DevTool was used to fill the gap of testing the website on even more screen sizes.
 
 
 Following aspects were considered during the test: 
 
 <details>
-<summary>Responsivness</summary>
+<summary>Responsiveness</summary>
 
 * Testing procedure:
     +  Changing the screen size of the web browser and testing the following:      
@@ -156,51 +156,60 @@ Following aspects were considered during the test:
 </details>
 
 <details>
-<summary>Maring & Paddings</summary>
+<summary>Margins & Paddings</summary>
 
-* (consistency of margin and padding accross all pages)
-* Fruits
-* Fish
+* Testing procedure:
+    + Clicking on all pages and checking the consistency of margins and paddings accross all pages.
+    + The same procedure as for the responsivness.
+* Expected results:
+    + Margings and paddings are consistent accross all pages.
+* Actual results:
+    + The behavior as expected.
 </details>
 
 <details>
-<summary>hover effects on links and buttons</summary>
+<summary>Responds on User Activies</summary>
 
-* Vegetables
-* Fruits
-* Fish
+* Testing procedure
+    + Haver over the links and buttons.
+    + Click on all menu item and test the visibility of the active pages
+    + Click on links and test if the external links open in a new tab.
+* Expected results:
+    + The hover effect is visible for the user.
+    + The menu works properly and the active page is highlighted.
+    + Links work properly and the new tab is opened for the external links.
+* Actual results:
+    + The behavior as expected.
 </details>
 
-<details>
-<summary>highlighting of the active page</summary>
-
-* Vegetables
-* Fruits
-* Fish
-</details>
-
-
-<details>
-<summary>form submission</summary>
-
-* Vegetables
-* Fruits
-* Fish
-</details>
 
 
 <details>
-<summary>opening link in a new tab</summary>
+<summary>Form Submission</summary>
 
-* Vegetables
-* Fruits
-* Fish
+* Testing procedure:
+    + Send the form with one of the unfilled form inputs.
+    + Send the form with incorect email address.
+    + Send the filled in form.
+    + Clear the form.
+* Expected results:
+    + The form is not sent in case of incorect inputs or empte inputs. The user is always warned.
+    + The user is informed after sending the form successfully.
+    + All inputs are empty after clearing the form.
+* Actual results:
+    + The behavior is as expected.
 </details>
+
 
 
 ### Validator Testing
 - CSS
-    - The W3C CSS Validation did not find any errors, see [the detailed report](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)![css validation](./assets/documentation/validator_css.png)
+    - The W3C CSS Validation did not find any errors.![css validation](./assets/documentation/testing/validator_css.png)
+
+    - Final reports of all three pages:
+        - [Home Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+        - [About Us Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+        - [Gallery Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - HTML
    - The initial validation revelead several issues, which were fixed.
@@ -211,17 +220,24 @@ Following aspects were considered during the test:
         |duplicated class attributes| a class was removed|
         |`div` element is not allowed to be a child element of `label`| `div` was removed and the menu bar was styled differently for mobile devices| 
 
-   - The final report did not show any errors or warnings for all three pages ![HTML Validation](./assets/documentation/validator_html.png)
+   - The final report did not show any errors or warnings![HTML Validation](./assets/documentation/testing/validator_html.png)
+
+   - The final detailed reports: 
         - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Findex.html)
         - [About Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fabout.html)
         - [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fgallery.html)
 
 - Lighthouse
-    - The lighthouse report was generated using the Google Chrome Dev Tools. The test were run for both desktiop and mobile devices.
-    - The initial report indicated the low performance due to the size of hero image. After the image compression, the performance got slightly better.
-    - The score for the best practices was reduced due to the cookies from the social-media link.
-    - Mobile devices ![lighthouse for mobile](./assets/documentation/validator_lighthouse_mobile.png)
-    - Desktop devices ![lighthouse for mobile](./assets/documentation/validator_lighthouse_desktop.png)
+    - The lighthouse report was generated using the Google Chrome Dev Tools. The test were run for both desktop and mobile devices.
+    - The initial report indicated the low performance due to the size of hero image. After the decreasing the size of images, converting to the webp format and compressing, the performance got remarkable better.
+    - **Mobile devices** 
+        - Home Page ![ home page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_index.png)
+        - About Us Page ![ about us page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_about.png)
+        - Gallery Page ![ gallery page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_gallery.png)
+    - **Desktop devices** 
+        - Home Page ![home page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_desktop_index.png)
+        - About Us Page ![ about us page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_desktop_about.png)
+        - Gallery Page ![ gallery page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_desktop_gallery.png)
 
 
 
