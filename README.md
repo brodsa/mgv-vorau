@@ -118,7 +118,7 @@ The About Us Page introduces the choir, including its history. The page also lis
 There are several slight differences between the original and the actuall design:
 - Generally, there is more text in the actuall than original desing.
 - The hamburger menu was not considered in the original design.
-- Four embeded videos for large devices were not implemented because of the difficulities of changing the video sizes.
+- Four embeded videos for large devices were not implemented because of the difficulities of changing the video sizes, i.e. dificulties with the responsivness of iframes for embedded videos. 
 - The layout of the footer was slightly modified by including more information (e.g. additional contact details)
 - The layout of the Gallery Page was slightly modified.
 - The contect of the About Us Page was better structured by including the History Section. 
@@ -126,16 +126,14 @@ There are several slight differences between the original and the actuall design
 ### Future Enhancements
 - German Language
     - As the webpage presents the choir from Austria, including the German language is more relevant for the users as the English.
-- Scroll Top Button
-    - When scrolling down the webpage on the mobile devices, the menu bar is not fixed to the top. Therefore, a scroll button would make the webpage even more user friendly.
 
 ---
 
 ## Testing
-Generally, the testing was considered during the entire development of the webpage. After implementig a feature or style the component, the implementation was tested. In the end, more thorough manual testing was conducted. Finally, the existing validation tools were used.
+Generally, the testing was considered during the entire development of the webpage. After implementing a feature or styling the component, the the webpage was tested. In the end, more thorough manual testing was conducted. Finally, the existing validation tools were used.
 
 ### Manual Testing
-- The website was tested on various devices (mobile and laptop) and in various web browsers (Chroma, Safary, Firefox, and Edge). In additional, the Google Chrome DevTool was used fill the gap of testing the website on even more screen sizes.
+- The website was tested on various devices (mobile: iPhone8, TODO; and laptop: ) and in various web browsers (Chroma, Safary, Firefox, and Edge). In additional, the Google Chrome DevTool was used to fill the gap of testing the website on even more screen sizes.
 
 
 Following aspects were considered during the test: 
@@ -143,9 +141,18 @@ Following aspects were considered during the test:
 <details>
 <summary>Responsivness</summary>
 
-* Vegetables
-* Fruits
-* Fish
+* Testing procedure:
+    +  Changing the screen size of the web browser and testing the following:      
+        + The menu bar responds to the different screen sizes.
+        + The layout (text, images, a embedded video) responds to the different screen sizes.
+        +  The information and background in Footer Section responds to the different screen sizes.
+    + Testing the same procedure on real devices.
+* Expected results:
+    + The menu bar reacts properly, changing from the menu bar to the hamburger menu.
+    + The text is visable and readable.
+    + The images and video are properly displayed.
+* Actual results:
+    + The webpage reacts as expected, except the responsivness of video, see more in [Bugs and Issues](###bugsandissues).
 </details>
 
 <details>
@@ -226,10 +233,11 @@ The list of additional bugs/issues, wich were fixed, is listed in the table belo
 
 | Bug  and Issue                                                                             | Solution                                                                                                                            |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Colour accessibility                                                              | New colour pallete was chosen.                                                                                                      |
-| The width of the menu bar is inconsistent in all pages when using mobile devices. | The margin was added to the header in About Us and Gallery Page.                                                                    |
-| Calendar items are not large enough, causing the text is hidden.                  | The width of the item was increased.                                                                                                |
-| Buttons of the form have different appearence on mobile devices than on notebooks | The problem was googled and a post solving the issue was found on [stack overflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone). The property, `-webkit-appearance: none;` , was added to the css class.   |
+| Colour accessibility                                                              | New colour pallete was chosen, see [coolors](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578).                                     
+| Buttons of the form have different appearence on mobile devices than on notebooks | The problem was googled and a post solving the issue was found on [stack overflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone). The property, `-webkit-appearance: none;`, was added to the css class.   
+| A low performance scores in Lighthouse testing | The size of images were decrease and all images were converted to the webp format 
+| Responsivness of the youtube video for very small devices (i.g. smaller than 350px) does not work properly.| unfixed, the solution will be considered in a next iteration due to the lack of time.
+
 
 ---
 
@@ -244,7 +252,7 @@ The site was deployed to GitHub Pages. The steps to deploy the webpage were foll
 The website can be viewed [here](https://brodsa.github.io/mgv-vorau/).
 
 
-It should be noted that during the development, the commit type was included in the message, following [the blog post](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) with a slight difference. The style type commit, i.e.  `commit -m "style:"`, was used for the css styling of the webpage. The changes in the code style, such as removing the comments, was considered as the refact type commit, i.e. `commit -m "refact:"`. 
+It should be noted that during the development, the commit type was included in commit messages, following [the blog post](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) with a slight difference. The style type commit, i.e.  `commit -m "style:"`, was used for the css styling of the webpage. The changes in the code style, such as removing the comments, was considered as the refact type commit, i.e. `commit -m "refact:"`. 
 
 ## Clone the Repository
 The repository can also be cloned locally, the steps are following:
@@ -287,6 +295,7 @@ The repository can also be cloned locally, the steps are following:
 ### Technologies & Tools
 - [Google Fonts]() was used to import the fonts into the style.css file.
 - [Font Awesome](https://fontawesome.com/search) were used generate icons for the social media and the contact details.
+- [Color Pallete](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578) was used to select accessible colors.
 - [Clip Path Generator](https://www.cssportal.com/css-clip-path-generator/) was used to generate the background of the Hero and Footer Section.
 - [Image Compressor](https://tinypng.com/) was used to compressed the images.
 - [Image Convertor](https://ezgif.com/) was used to comvert all images in the webp format.
