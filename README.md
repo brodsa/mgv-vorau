@@ -114,6 +114,10 @@ The Gallery Page contains a selection of the photos from the concerts or other e
 The About Us Page introduces the choir, including its history. The page also lists the front persons (US5).
 ![About Us Page](./assets/documentation/features/structure_about-page.png)
 
+### **Hidden Page - 404**
+The hidden page 404 indicates the users that there is an error with their request.
+![404 Page](./assets/documentation/features/structure_404.png)
+
 ### Differences to Design
 There are several slight differences between the original and the actual design:
 - Generally, there is more text in the actual design than in the original one.
