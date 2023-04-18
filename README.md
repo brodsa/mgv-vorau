@@ -231,19 +231,20 @@ The list of additional bugs/issues, wich were fixed, is listed in the table belo
 | Calendar items are not large enough, causing the text is hidden.                  | The width of the item was increased.                                                                                                |
 | Buttons of the form have different appearence on mobile devices than on notebooks | The problem was googled and a post solving the issue was found on [stack overflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone). The property, `-webkit-appearance: none;` , was added to the css class.   |
 
-It should be noted that during the development, the commit type was included in the message, following [the blog post](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/). A slight difference was, unfortunately, considered. The style type commit, i.e.  `commit -m "style:"`, was used for the css styling of the webpage. The changes in the code style, like removing the comments, was considered as the refact type commit, i.e. `commit -m "refact:"`. 
-
 ---
 
 ## Deployment
 The site was deployed to GitHub Pages. The steps to deploy the webpage were following: 
-- In the GitHub repository, go to the Settings section.
-- Find the Page category on the left hand side.
-- Under the Branch section, select the source branch from the drop-down menu (e.g. master branch).
-- Click on Save button.
+- In the GitHub repository, go to the Settings Section.
+- Find the Page Category on the left hand side.
+- Under the Branch Section, select the source branch from the drop-down menu (e.g. master branch).
+- Click on Save Button.
 - Once the master branch has been selected, the page url will be generated - this indicates the successful deployment. 
   
 The website can be viewed [here](https://brodsa.github.io/mgv-vorau/).
+
+
+It should be noted that during the development, the commit type was included in the message, following [the blog post](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/) with a slight difference. The style type commit, i.e.  `commit -m "style:"`, was used for the css styling of the webpage. The changes in the code style, such as removing the comments, was considered as the refact type commit, i.e. `commit -m "refact:"`. 
 
 ## Clone the Repository
 The repository can also be cloned locally, the steps are following:
@@ -263,20 +264,24 @@ The repository can also be cloned locally, the steps are following:
 - HTML
 - CSS
 - Markdown
+- JavaScript
 
+---
 ## References
 
 ### Credits & Inspirations
-- [Responsive iframes](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) were considered for the map in the Get In Touch Section
 - [Content and Images](http://www.mgv-vorau.at/) were taken from the original webpage.
-- [Profile placeholder](https://www.pngfind.com/download/hJmwxix_image-placeholder-png-user-profile-placeholder-image-png/) was taken for the missing profile pictures. The pictures should be added soon.
-- Lectures of Become a coder from [Czechitas](https://www.czechitas.cz/kurzy/stan-se-koderkou) helped me to refresh some concepts which were not part of the course from the Code Institute (e.g. flex, grid, favicon).
+- [Box shadow](https://getcssscan.com/css-box-shadow-examples) ware taken for the buttons.
+- [Scroll back to the top button](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp) was taken in order to be more user friendly and navigate through the webpage quickly.
+- [Responsive iframes](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp) were considered for the map in the Get In Touch Section
+- [Profile placeholder](https://www.pngfind.com/download/hJmwxix_image-placeholder-png-user-profile-placeholder-image-png/) was taken for the missing profile pictures. The pictures should be included in a next iteration.
+- Lectures of Become a coder from [Czechitas](https://www.czechitas.cz/kurzy/stan-se-koderkou) helped me to refresh some concepts which were, unfortunately, not a part of the course from the Code Institute (e.g. flex, grid, favicon).
 - [The hero section](https://www.castlechorus.co.uk/) inspired the Hero and Footer Section of the webpage.
 - [The events calendar](https://www.nicepng.com/ourpic/u2t4i1a9w7o0i1i1_march-website-event-calendar-design/ ) inspired the Calendar section of the webpage.
 - The way of presenting the information in footer was inspired by the [THRIVE Jucies nad Smoothies](https://elainebroche-dev.github.io/ms1-thrive/index.html)
-- The style and structure of README were inspired by the alumni and mentors of the Code Institute: [eleinebroche-dev](https://github.com/elainebroche-dev/ms1-thrive), [MattBCoding](https://github.com/MattBCoding/leinster-trophy/blob/master/README.md),[Daisy-McG](https://github.com/Daisy-McG/MilestoneProject-1), and [Gareth McGirr](https://github.com/Gareth-McGirr).
-- [Box shadow](https://getcssscan.com/css-box-shadow-examples)
-- [Scroll back to the top button](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp).
+- The style and structure of README were inspired by the alumni and mentors of the Code Institute: [eleinebroche-dev](https://github.com/elainebroche-dev/ms1-thrive), [MattBCoding](https://github.com/MattBCoding/leinster-trophy/blob/master/README.md), [Daisy-McG](https://github.com/Daisy-McG/MilestoneProject-1), and my mentor [Gareth McGirr](https://github.com/Gareth-McGirr).
+
+
 
 
 ### Technologies & Tools
