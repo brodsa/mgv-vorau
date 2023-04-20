@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
 - [UX](#ux)
 - [Features](#features)
-- [Testing](#testing);
+- [Testing](#testing)
 - [Deployment](#deployment)
 - [References](#references)
 - [Acknowledgements](#acknowledgemetns)
