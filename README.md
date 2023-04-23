@@ -13,7 +13,7 @@
 
 ## Introduction
 
-This website is the redesign of the existing homepage of [The Choir Vorau](http://www.mgv-vorau.at/), originally created in German. The Choir Vorau is a mixed-voice choir located in Vorau, Styria, Austria. The Vorau municipality is located in a culturally rich area, which attracts a lot of tourists. Vorau is especially famous for the historical abbey, where the choir organizes several concerts per year. The choir can also be heard during the regular singing rehearsal. Besides, the choir members organize other events, such as trips or singing with another choir. You can find the website [here](https://brodsa.github.io/mgv-vorau/).
+This website is the redesign of the existing homepage of [The Choir Vorau](http://www.mgv-vorau.at/), originally created in German. The Choir Vorau is a mixed-voice choir located in Vorau, Styria, Austria. The Vorau municipality is embedded in a culturally rich area, which attracts a lot of tourists. Vorau is especially famous for the historical abbey, where the choir organizes several concerts per year. The choir can also be heard during the regular singing rehearsals. Besides, the choir members organize other events, such as trips or singing with another choir. You can find the website [here](https://brodsa.github.io/mgv-vorau/).
 
 ![Mockup of the website](./assets/documentation/mockup.png)
 
@@ -55,7 +55,7 @@ The wireframes were created using the program balsamiq. Two versions of the webp
 
 
 ### Color Pallete
-The color pallete was changed during the development of the homepage several times. The [initial color schema](https://coolors.co/21b8a4-cecbcb-201f1f-f5f5f5) was chosen manually without checking the accessibility. After testing, it turned out that the colors are very poor in terms of accessibility. Therefore, new schema was selected based on the popular color pallete, see [here](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578). The colors also fit to the chosen photo in the hero section of the homepage.
+The color pallete was changed during the development of the homepage several times. The [initial color schema](https://coolors.co/21b8a4-cecbcb-201f1f-f5f5f5) was chosen manually without checking the accessibility. After testing, it turned out that the colors are very poor in terms of accessibility. Therefore, new schema was selected based on the popular color pallete-generator, see [here](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578). The colors also fit to the chosen hero image of the homepage.
 ![Color Pallete](./assets/documentation/ux/color_palette.png)
 
 The accessibility of the chosen colors was tested by the tool [toolness](https://github.com/toolness/accessible-color-matrix). The usage of the color follows the advised color combinations, see the full report [here](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E).
@@ -70,7 +70,7 @@ The heading font, Raleway, was selected after searching for the best fonts in 20
 
 ---
 ## Features
-The layout of the webpage takes into account all eight user stories. Firstly, the entire webpage is designed to be responsive to ensure that the webpage is properly displaied on different devices (e.g. a mobile, a desktop). Secondly, the webpage consists of three sites, containing the common components, i.e. navigation menu and footer. This helps the user to easily navigate through the content of the webpage. Lastly, the webpage contains other components or elements which are common practice in web design, i.e. logo, hero picture, copyright notice or external links. 
+The layout of the webpage takes into account all eight user stories. Firstly, the entire webpage is designed to be responsive to ensure that the webpage is properly displayed on different devices (e.g. a mobile, a desktop). Secondly, the webpage consists of three sites, containing the common components, i.e. navigation menu and footer. This helps the user to easily navigate through the content of the webpage. Lastly, the webpage contains other components or elements which are common practice in web design, i.e. logo, hero picture, copyright notice or external links. 
 
 ### Common Features
 -  **Navigation Menu**
@@ -131,7 +131,7 @@ There are several slight differences between the original and the actual design:
 
 ### Future Enhancements
 - German Language
-    - As the webpage presents the choir from Austria, including the German language is more relevant for the users than the English.
+    - As the webpage presents the choir from Austria, the German language is more relevant for the users than the English.
 
 ---
 
@@ -139,7 +139,7 @@ There are several slight differences between the original and the actual design:
 Generally, testing was considered during the entire development of the webpage. After implementing a feature or styling the component, the the webpage was tested. In the end, more thorough manual testing was conducted. Finally, the existing validation tools were used.
 
 ### Manual Testing
-- The website was tested on various devices (mobile: iPhone8, TODO; and laptop: Dell XPS13) and in various web browsers (Chroma, Safary, Firefox, and Edge). In additional, the Google Chrome DevTool was used to fill the gap with testing the website on even more screen sizes.
+- The website was tested on various devices (mobile: iPhone8, TODO; and laptop: Dell XPS13) and in various web browsers (Chroma, Safary, Firefox, and Edge). In addition, the Google Chrome DevTool was used to fill the gap with testing the website on even more screen sizes.
 
 
 Following aspects were considered during the test: 
@@ -234,8 +234,8 @@ Following aspects were considered during the test:
         - [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fgallery.html)
 
 - Lighthouse
-    - The lighthouse report was generated using the Google Chrome Dev Tools. The test were run for both desktop and mobile devices.
-    - The initial report indicated the low performance due to the size images. After the decreasing the size of images, converting to the webp format and compressing, the performance got remarkable better.
+    - The lighthouse report was generated using the Google Chrome Dev Tools. The tests were run for both desktop and mobile devices.
+    - The initial report indicated the low performance due to the size images. After decreasing the size of the images and converting to the webp format and compressing, the performance got remarkable better.
     - **Mobile devices** 
         - Home Page ![ home page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_index.png)
         - About Us Page ![ about us page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_about.png)
@@ -249,15 +249,15 @@ Following aspects were considered during the test:
 
 
 ### Bugs and Issues
-In general, the adaptation of margin and padding was always slightly changed to received better appearance, which is, of course, very subjective to the developer. Such type of changes and the correction of typos were not considered as bug.
+In general, the adaptation of margin and padding was always slightly changed to receive better appearance, which is, of course, very subjective to the developer. Such types of changes and the correction of typos were not considered as a bug.
 
 The list of additional bugs/issues, which were fixed, is listed in the table below.
 
 | Bug  and Issue                                                                             | Solution                                                                                                                            |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Color accessibility                                                              | New color pallete was chosen, see [coolors](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578).                                     
-| Buttons of the form have different appearence on mobile devices than on notebooks | The problem was googled and a post solving the issue was found on [stack overflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone). The property, `-webkit-appearance: none;`, was added to the CSS class.   
-| A low performance scores in Lighthouse testing | The size of images were decrease and all images were converted to the webp format 
+| The form buttons have different appearence on mobile devices than on notebooks | The problem was googled and a post solving the issue was found on [stack overflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone). The property, `-webkit-appearance: none;`, was added to the CSS class.   
+| A low performance scores in Lighthouse testing | The size of images were decreased and all images were converted to the webp format. 
 | Responsiveness of the YouTube video for very small devices (i.g. smaller than 280px) does not work properly.| unfixed, the solution will be considered in a next iteration due to the lack of time.
 
 
@@ -308,7 +308,7 @@ The repository can also be cloned locally, the steps are following:
 - Lectures of Become a coder from [Czechitas](https://www.czechitas.cz/kurzy/stan-se-koderkou) helped me to refresh some concepts which were, unfortunately, not a part of the course from the Code Institute (e.g. flex, grid, favicon).
 - [The hero section](https://www.castlechorus.co.uk/) inspired the Hero and Footer Section of the webpage.
 - [The events calendar](https://www.nicepng.com/ourpic/u2t4i1a9w7o0i1i1_march-website-event-calendar-design/ ) inspired the Calendar section of the webpage.
-- The way of presenting the information in footer was inspired by the [THRIVE Jucies nad Smoothies](https://elainebroche-dev.github.io/ms1-thrive/index.html)
+- The way of presenting the information in the footer was inspired by the [THRIVE Jucies nad Smoothies](https://elainebroche-dev.github.io/ms1-thrive/index.html)
 - The style and structure of README were inspired by the alumni and mentors of the Code Institute: [eleinebroche-dev](https://github.com/elainebroche-dev/ms1-thrive), [MattBCoding](https://github.com/MattBCoding/leinster-trophy/blob/master/README.md), [Daisy-McG](https://github.com/Daisy-McG/MilestoneProject-1), and my mentor [Gareth McGirr](https://github.com/Gareth-McGirr).
 
 
@@ -324,12 +324,12 @@ The repository can also be cloned locally, the steps are following:
 - [Logo Creator](https://looka.com/) was used to create the logo.
 - [Favicon](https://favicon.io/favicon-converter/) was used to generate the code and files for the webpage favicon.
 Balsamiq was used to create the wireframes during the design process
-- [YouTube](https://www.youtube.com/) was used to generate HTML code for the embedded video.
-- [Google Maps](https://www.google.com/maps) was used to generate HTML cor for the embedded map.
+- [YouTube](https://www.youtube.com/) was used to generate the HTML code for the embedded video.
+- [Google Maps](https://www.google.com/maps) was used to generate the HTML code for the embedded map.
 - [GitHub](https://github.com/) was used to store the code and host the website.
-- [Gitpod](https://www.gitpod.io/) is IDE and was used to develop the website.
+- [Gitpod](https://www.gitpod.io/) is an IDE and was used to develop the website.
 - [Formsubmit](https://formsubmit.co/) was used for the form submission.
 
 
 ### Acknowledgemetns
-I would like to thank my mentor [Gareth McGirr](https://github.com/Gareth-McGirr) for his guidance throughout my project. I'd like to give a special mention to the student [Carl Murray](https://github.com/CarlMurray) for his time to provide me a valuable feedback.
+I would like to thank my mentor [Gareth McGirr](https://github.com/Gareth-McGirr) for his guidance throughout my project. I'd like to give a special mention to the student [Carl Murray](https://github.com/CarlMurray) for his time to provide me a valuable feedback. 
