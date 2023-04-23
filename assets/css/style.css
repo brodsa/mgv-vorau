@@ -689,7 +689,7 @@ h1, h2, h3, h4 {
     /* ------- gallery page ------- */
     .gallery-grid{
     padding: 40px 40px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 90px auto;
     grid-auto-rows: 250px;
     }
 }
