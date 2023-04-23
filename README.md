@@ -225,6 +225,7 @@ Following aspects were considered during the test:
         |`button` tags cannot be a descendant of `a` tags and vice verse| `button` tag was removed
         |duplicated class attributes| a class was removed|
         |`div` element is not allowed to be a child element of `label`| `div` was removed and the menu bar was styled differently for mobile devices| 
+        | The type attribute is unnecessary for JavaScript resources | The usage of the type attribute was checked [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type) and removed, altough the usage of the attribute is mentioned in the learning material of the Code Instutue|
 
    - The final report did not show any errors or warnings![HTML Validation](./assets/documentation/testing/validator_html.png)
 
