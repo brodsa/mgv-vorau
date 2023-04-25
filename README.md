@@ -44,7 +44,7 @@ The purpose of the newly designed homepage is mainly to enhance the presentation
 
 
 ### Wireframes
-The wireframes were created using the program balsamiq. Two versions of the webpage were considered: mobile (left) and notebook (right).
+The wireframes were created using the program Balsamiq. Two versions of the webpage were considered: mobile (left) and notebook (right).
 
 - Homepage
 ![Wireframe of the homepage](./assets/documentation/wireframe/HOME.png)
@@ -141,7 +141,7 @@ There are several slight differences between the original and the actual design:
 Generally, testing was considered during the entire development of the webpage. After implementing a feature or styling the component, the the webpage was tested. In the end, more thorough manual testing was conducted. Finally, the existing validation tools were used.
 
 ### Manual Testing
-- The website was tested on various devices (mobile: iPhone8, TODO; and laptop: Dell XPS13) and in various web browsers (Chroma, Safary, Firefox, and Edge). In addition, the Google Chrome DevTool was used to fill the gap with testing the website on even more screen sizes.
+- The website was tested on various devices (mobile: iPhone8, Samsung A52; and laptop: Dell XPS13) and in various web browsers (Chroma, Safary, Firefox, and Edge). In addition, the Google Chrome DevTool was used to fill the gap with testing the website on even more screen sizes.
 
 
 Following aspects were considered during the test: 
@@ -150,24 +150,24 @@ Following aspects were considered during the test:
 <summary>Responsiveness</summary>
 
 * Testing procedure:
-    +  Changing the screen size of the web browser and testing the following:      
+    +  Change the screen size of the web browser and testing the following:      
         + The menu bar responds to the different screen sizes.
         + The layout (text, images, a embedded video) responds to the different screen sizes.
         +  The information and background in Footer Section responds to the different screen sizes.
-    + Testing the same procedure on real devices.
+    + Test the same procedure on real devices.
 * Expected results:
     + The menu bar reacts properly, changing from the menu bar to the hamburger menu.
     + The text is visible and readable.
     + The images and video are properly displayed.
 * Actual results:
-    + The webpage reacts as expected, except the responsiveness of video, see more in [Bugs and Issues](###bugsandissues).
+    + The webpage reacts as expected.
 </details>
 
 <details>
 <summary>Margin & Padding</summary>
 
 * Testing procedure:
-    + Clicking on all pages and checking the consistency of margin and padding across all pages.
+    + Click on all pages and checking the consistency of margin and padding across all pages.
     + The same procedure as for the responsiveness.
 * Expected results:
     + Margin and padding are consistent across all pages.
@@ -180,12 +180,12 @@ Following aspects were considered during the test:
 
 * Testing procedure
     + Hover over the links and buttons.
-    + Click on all menu item and test the visibility of the active pages
-    + Click on links and test if the external links open in a new tab.
+    + Click on all menu items and test the visibility of the active pages.
+    + Click on links and test if external links open in new tabs.
 * Expected results:
     + The hover effect is visible for the user.
     + The menu works properly and the active page is highlighted.
-    + Links work properly and the new tab is opened for the external links.
+    + Links work properly and a new tab is opened for an external link.
 * Actual results:
     + The behavior as expected.
 </details>
@@ -202,7 +202,7 @@ Following aspects were considered during the test:
     + Clear the form.
 * Expected results:
     + The form is not sent in case of incorrect inputs or empty inputs. The user is always warned.
-    + The user is informed after sending the form successfully.
+    + The user is informed after sending the form successfully, by displaying the Thank You Page.
     + All inputs are empty after clearing the form.
 * Actual results:
     + The behavior is as expected.
@@ -211,7 +211,7 @@ Following aspects were considered during the test:
 
 
 ### Validator Testing
-- CSS
+- **CSS**
     - The W3C CSS Validation did not find any errors.![css validation](./assets/documentation/testing/validator_css.png)
 
     - The final detailed reports of all three pages:
@@ -219,7 +219,7 @@ Following aspects were considered during the test:
         - [About Us Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
         - [Gallery Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-- HTML
+- **HTML**
    - The initial validation detected several issues which were fixed, see below.
 
         | Issue | Solution |
@@ -227,7 +227,7 @@ Following aspects were considered during the test:
         |`button` tags cannot be a descendant of `a` tags and vice verse| `button` tag was removed
         |duplicated class attributes| a class was removed|
         |`div` element is not allowed to be a child element of `label`| `div` was removed and the menu bar was styled differently for mobile devices| 
-        | The type attribute is unnecessary for JavaScript resources | The usage of the type attribute was checked [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type) and removed, altough the usage of the attribute is mentioned in the learning material of the Code Instutue|
+        | The type attribute is unnecessary for JavaScript resources | the usage of the type attribute was checked [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type) and removed|
 
    - The final report did not show any errors or warnings![HTML Validation](./assets/documentation/testing/validator_html.png)
 
@@ -236,9 +236,9 @@ Following aspects were considered during the test:
         - [About Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fabout.html)
         - [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fgallery.html)
 
-- Lighthouse
-    - The lighthouse report was generated using the Google Chrome Dev Tools. The tests were run for both desktop and mobile devices.
-    - The initial report indicated the low performance due to the size images. After decreasing the size of the images and converting to the webp format and compressing, the performance got remarkable better.
+- **Lighthouse**
+    - The lighthouse report was generated using the Google Chrome DevTools in an incognito mode. The tests were run for both desktop and mobile devices.
+    - The initial report indicated the low performance due to the size images. After decreasing the size of the images and converting to the webp format and compressing the images, the performance got remarkable better.
     - **Mobile devices** 
         - Homepage ![ homepage - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_index.png)
         - About Us Page ![ about us page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_about.png)
@@ -252,16 +252,15 @@ Following aspects were considered during the test:
 
 
 ### Bugs and Issues
-In general, the adaptation of margin and padding was always slightly changed to receive better appearance, which is, of course, very subjective to the developer. Such types of changes and the correction of typos were not considered as a bug.
+In general, the adaptation of margin and padding was often slightly changed to receive better appearance, which is, of course, very subjective to the developer. Such types of changes and the correction of typos were not considered as a bug.
 
 The list of additional bugs/issues, which were fixed, is listed in the table below.
 
 | Bug  and Issue                                                                             | Solution                                                                                                                            |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
 | Color accessibility                                                              | New color pallete was chosen, see [coolors](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578).                                     
-| The form buttons have different appearence on mobile devices than on notebooks | The problem was googled and a post solving the issue was found on [stack overflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone). The property, `-webkit-appearance: none;`, was added to the CSS class.   
-| A low performance scores in Lighthouse testing | The size of images were decreased and all images were converted to the webp format. 
-| Responsiveness of the YouTube video for very small devices (i.g. smaller than 280px) does not work properly.| unfixed, the solution will be considered in a next iteration due to the lack of time.
+| The form buttons have different appearence on mobile devices than on notebooks | The problem was searched on Google and a post solving the issue was found on [stack overflow](https://stackoverflow.com/questions/5438567/css-submit-button-weird-rendering-on-ipad-iphone). The property, `-webkit-appearance: none;`, was added to the CSS class.   
+| A low performance scores in Lighthouse testing | The size of images were decreased and all images were converted to the webp format.
 
 
 ---
@@ -335,5 +334,5 @@ Balsamiq was used to create the wireframes during the design process
 -[Mockup Generator](https://techsini.com/multi-mockup/?url=http://www.example.com) was used to generate the mockup for README.
 
 
-### Acknowledgemetns
-I would like to thank my mentor [Gareth McGirr](https://github.com/Gareth-McGirr) for his guidance throughout my project. I'd like to give a special mention to the student [Carl Murray](https://github.com/CarlMurray) for his time to provide me a valuable feedback. 
+### Acknowledgements
+I would like to thank my mentor [Gareth McGirr](https://github.com/Gareth-McGirr) for his guidance throughout my project. I'd like to give a  mention to the student [Carl Murray](https://github.com/CarlMurray) for his time to provide me a valuable feedback. And my special thanks goes to my husband for beeing supportive during the development of the webpage.
