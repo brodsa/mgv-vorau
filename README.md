@@ -218,6 +218,8 @@ Following aspects were considered during the test:
         - [Homepage](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
         - [About Us Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
         - [Gallery Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+        - [404 Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2F404.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+        - [Thank You Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fthank_you.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - **HTML**
    - The initial validation detected several issues which were fixed, see below.
@@ -235,6 +237,8 @@ Following aspects were considered during the test:
         - [Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Findex.html)
         - [About Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fabout.html)
         - [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fgallery.html)
+        - [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fthank_you.html)
+        - [404 Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2F404.html)
 
 - **Lighthouse**
     - The lighthouse report was generated using the Google Chrome DevTools in an incognito mode. The tests were run for both desktop and mobile devices.
@@ -243,10 +247,12 @@ Following aspects were considered during the test:
         - Homepage ![ homepage - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_index.png)
         - About Us Page ![ about us page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_about.png)
         - Gallery Page ![ gallery page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_gallery.png)
+        - Thank You Page ![ thanky you  page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_thank_you.png)
     - **Desktop devices** 
-        - Homepage ![homepage - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_desktop_index.png)
-        - About Us Page ![ about us page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_desktop_about.png)
-        - Gallery Page ![ gallery page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_desktop_gallery.png)
+        - Homepage ![homepage - lighthouse for desktop](./assets/documentation/testing/validator_lighthouse_desktop_index.png)
+        - About Us Page ![ about us page - lighthouse for desktop](./assets/documentation/testing/validator_lighthouse_desktop_about.png)
+        - Gallery Page ![ gallery page - lighthouse for desktop](./assets/documentation/testing/validator_lighthouse_desktop_gallery.png)
+        - Thank You Page ![ thanky you  page - lighthouse for desktop](./assets/documentation/testing/validator_lighthouse_desktop_thank_you.png)
 
 
 
