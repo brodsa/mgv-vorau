@@ -13,7 +13,9 @@
 
 ## Introduction
 
-This website is the redesign of the existing homepage of [The Choir Vorau](http://www.mgv-vorau.at/), originally created in German. The Choir Vorau is a mixed-voice choir located in Vorau, Styria, Austria. The Vorau municipality is embedded in a culturally rich area, which attracts a lot of tourists. Vorau is especially famous for the historical abbey, where the choir organizes several concerts per year. The choir can also be heard during the regular singing rehearsals. Besides, the choir members organize other events, such as trips or singing with another choir. You can find the website [here](https://brodsa.github.io/mgv-vorau/).
+This website is the redesign of the existing homepage of [The Choir Vorau](http://www.mgv-vorau.at/), originally created in German. The Choir Vorau is a mixed-voice choir located in Vorau, Styria, Austria. The Vorau municipality is embedded in a culturally rich area, which attracts a lot of tourists. Vorau is especially famous for the historical abbey, where the choir organizes several concerts per year. The choir can also be heard during the regular singing rehearsals. Besides, the choir members organize other events, such as trips or singing with another choir. 
+
+You can find the website [here](https://brodsa.github.io/mgv-vorau/).
 
 ![Mockup of the website](./assets/documentation/mockup.png)
 
@@ -21,13 +23,13 @@ This website is the redesign of the existing homepage of [The Choir Vorau](http:
 <br>
 
 ## UX
-The purpose of the newly designed home page is mainly to enhance the presentation of the choir's activities. This should attract fans, tourists, and potentially new members of the Choir Vorau. In the future, the current members of the choir will also have the opportunity to see a detailed gallery of all past events and concerts.
+The purpose of the newly designed homepage is mainly to enhance the presentation of the choir's activities. This should attract fans, tourists, and potentially new members of the Choir Vorau. In the future, the current members of the choir will also have the opportunity to see a detailed gallery of all past events and concerts.
 
 ### User Stories
 
 - **First-Time Visitor Goals**
     - US1: As a first-time visitor, I want to easily navigate through the content of the webpage.
-    - US2: As a first-time visitor, I want to visit the web page on my mobile phone.
+    - US2: As a first-time visitor, I want to visit the webpage on my mobile phone.
     - US3: As a first-time visitor, I want to see samples of the visual or audio presentation of some past concerts.
 
 - **Returning Visitor Goals**
@@ -44,8 +46,8 @@ The purpose of the newly designed home page is mainly to enhance the presentatio
 ### Wireframes
 The wireframes were created using the program balsamiq. Two versions of the webpage were considered: mobile (left) and notebook (right).
 
-- Home Page
-![Wireframe of the home page](./assets/documentation/wireframe/HOME.png)
+- Homepage
+![Wireframe of the homepage](./assets/documentation/wireframe/HOME.png)
 
 - About Us Page
 ![Wireframe of the about us page](./assets/documentation/wireframe/ABOUT%20US.png)
@@ -58,7 +60,7 @@ The wireframes were created using the program balsamiq. Two versions of the webp
 The color pallete was changed during the development of the homepage several times. The [initial color schema](https://coolors.co/21b8a4-cecbcb-201f1f-f5f5f5) was chosen manually without checking the accessibility. After testing, it turned out that the colors are very poor in terms of accessibility. Therefore, new schema was selected based on the popular color pallete-generator, see [here](https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578). The colors also fit to the chosen hero image of the homepage.
 ![Color Pallete](./assets/documentation/ux/color_palette.png)
 
-The accessibility of the chosen colors was tested by the tool [toolness](https://github.com/toolness/accessible-color-matrix). The usage of the color follows the advised color combinations, see the full report [here](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E).
+The accessibility of the chosen colors was tested by the tool [toolness](https://github.com/toolness/accessible-color-matrix). The usage of the colors follow the advised color combinations, see the full report [here](https://toolness.github.io/accessible-color-matrix/?n=White&n=Black&n=Green&v=EBEBEB&v=201F1F&v=659B5E).
 ![Color Accessiblity](./assets/documentation/ux/color_palette_accessibility.png)
 
 
@@ -74,7 +76,7 @@ The layout of the webpage takes into account all eight user stories. Firstly, th
 
 ### Common Features
 -  **Navigation Menu**
-    - All three web pages contain the logo and navigation menu (US1).
+    - All three webpages contain the logo and navigation menu (US1).
     - The navigation menu includes the following items (US1): 
         - *Home* navigates the user to the homepage.
         - *About Us* navigates the user to the About Us Page.
@@ -89,8 +91,8 @@ The layout of the webpage takes into account all eight user stories. Firstly, th
     - The footer contains the links to the social media (US7, US9), contact information (US6) and the copyright notice.
     ![Footer](./assets/documentation/features/structure_footer.png)
 
-### **Home Page Features**
-The Home Page consists of 4 sections including the listed features:
+### **Homepage Features**
+The Homepage consists of 4 sections including the listed features:
  - **Hero Section** includes the name, slogan and photo of the choir. Additionally, there are two buttons *Listen to Us* and *Join Us* ,which direct the user quickly to the Calender Section (US4, US9) and Get In Touch Section(US6) respectively.
  ![Hero](./assets/documentation/features/structure_hero.png)
 
@@ -213,7 +215,7 @@ Following aspects were considered during the test:
     - The W3C CSS Validation did not find any errors.![css validation](./assets/documentation/testing/validator_css.png)
 
     - The final detailed reports of all three pages:
-        - [Home Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+        - [Homepage](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
         - [About Us Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
         - [Gallery Page](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -230,7 +232,7 @@ Following aspects were considered during the test:
    - The final report did not show any errors or warnings![HTML Validation](./assets/documentation/testing/validator_html.png)
 
    - The final detailed reports of all three pages: 
-        - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Findex.html)
+        - [Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Findex.html)
         - [About Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fabout.html)
         - [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrodsa.github.io%2Fmgv-vorau%2Fgallery.html)
 
@@ -238,11 +240,11 @@ Following aspects were considered during the test:
     - The lighthouse report was generated using the Google Chrome Dev Tools. The tests were run for both desktop and mobile devices.
     - The initial report indicated the low performance due to the size images. After decreasing the size of the images and converting to the webp format and compressing, the performance got remarkable better.
     - **Mobile devices** 
-        - Home Page ![ home page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_index.png)
+        - Homepage ![ homepage - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_index.png)
         - About Us Page ![ about us page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_about.png)
         - Gallery Page ![ gallery page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_mobile_gallery.png)
     - **Desktop devices** 
-        - Home Page ![home page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_desktop_index.png)
+        - Homepage ![homepage - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_desktop_index.png)
         - About Us Page ![ about us page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_desktop_about.png)
         - Gallery Page ![ gallery page - lighthouse for mobile](./assets/documentation/testing/validator_lighthouse_desktop_gallery.png)
 
@@ -330,6 +332,7 @@ Balsamiq was used to create the wireframes during the design process
 - [GitHub](https://github.com/) was used to store the code and host the website.
 - [Gitpod](https://www.gitpod.io/) is an IDE and was used to develop the website.
 - [Formsubmit](https://formsubmit.co/) was used for the form submission.
+-[Mockup Generator](https://techsini.com/multi-mockup/?url=http://www.example.com) was used to generate the mockup for README.
 
 
 ### Acknowledgemetns
